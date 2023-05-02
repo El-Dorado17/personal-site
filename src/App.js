@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import Photo_Template from './Photo_Template.jpg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={Photo_Template} className="pfp" alt="template for profile pic" />
         <h2>
           Hello, World!
         </h2>
@@ -15,7 +16,17 @@ function App() {
           things I like, and hopefully some things I (or anyone who is reading this) can interact with!
         </p>
       </header>
+      <div>
+        <ul>
+          <li>
+            <input type="radio" name="color"/> one
+            <input type="radio" name="color"/> two
+            <input type="radio" name="color"/> three
+          </li>
+        </ul>
+      </div>
     </div>
+
   );
 }
 
