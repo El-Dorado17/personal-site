@@ -1,3 +1,11 @@
+//? components ==> views ==> App.js ==> Browser renders 
+
+/* 
+This module will contain the application view.
+This is also the module that the browser is reading directly/first
+*/
+
+
 // import logo from './logo.svg';
 import Photo_Template from './Photo_Template.jpg'
 import './App.css';
@@ -16,15 +24,7 @@ function App() {
           things I like, and hopefully some things I (or anyone who is reading this) can interact with!
         </p>
       </header>
-      <div>
-        <ul>
-          <li>
-            <input type="radio" name="color"/> one
-            <input type="radio" name="color"/> two
-            <input type="radio" name="color"/> three
-          </li>
-        </ul>
-      </div>
+
     </div>
 
   );
@@ -46,4 +46,16 @@ I'm ready for a final merge into main! Good practice!
 /*
 This work was done only on the work branch. Today I am practicing pushing
 to GH, and pulling it down onto all other branches!
+*/
+
+/*
+      <div>
+        <ul>
+          <li>
+            <input type="radio" name="color"/> one
+            <input type="radio" name="color"/> two
+            <input type="radio" name="color"/> three
+          </li>
+        </ul>
+      </div>
 */
