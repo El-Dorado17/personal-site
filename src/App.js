@@ -1,4 +1,4 @@
-//? components ==> views ==> App.js ==> Browser renders 
+//? components ==> views ==> App.js ==> index.js ==> Browser renders 
 
 /* 
 This module will contain the application view.
@@ -7,30 +7,36 @@ This is also the module that the browser is reading directly/first
 
 
 // import logo from './logo.svg';
-import Photo_Template from './Photo_Template.jpg'
-import './App.css';
+// import Photo_Template from './Photo_Template.jpg'
+// import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import { ApplicationViews } from "./components/views/ApplicationViews.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={Photo_Template} className="pfp" alt="template for profile pic" />
-        <h2>
-          Hello, World!
-        </h2>
-        <h4>Welcome to my extra-curiccular React App!</h4>
-        <p>I plan to make a personal page that will display little facts about me,</p>
-        <p> 
-          things I like, and hopefully some things I (or anyone who is reading this) can interact with!
-        </p>
-      </header>
-
-    </div>
-
+  <Router>
+    <Routes>
+      <Route path="*" element={<ApplicationViews />} />
+    </Routes>
+  </Router>
   );
 }
 
+
 export default App;
+
+
+//! error with the following code being in the function: UseRoutes() may only be used in the context of a <Router> component
+//? It needed Router as shown above!
+/*
+<Routes>
+    <Route path="*" element={
+          <ApplicationViews />
+    
+    } />
+  </Routes>
+*/
+
 /*
 TEST - I made a dev branch 
 and will also be making a working branch. 
