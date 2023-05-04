@@ -1,4 +1,4 @@
-//? components ==> views ==> App.js ==> Browser renders 
+//? components ==> views ==> App.js ==> index.js ==> Browser renders 
 
 /* 
 This module will contain the application view.
@@ -7,30 +7,39 @@ This is also the module that the browser is reading directly/first
 
 
 // import logo from './logo.svg';
-import Photo_Template from './Photo_Template.jpg'
-import './App.css';
+// import './App.css';
+// import Photo_Template from './Photo_Template.jpg'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={Photo_Template} className="pfp" alt="template for profile pic" />
-        <h2>
-          Hello, World!
-        </h2>
-        <h4>Welcome to my extra-curiccular React App!</h4>
-        <p>I plan to make a personal page that will display little facts about me,</p>
-        <p> 
-          things I like, and hopefully some things I (or anyone who is reading this) can interact with!
-        </p>
-      </header>
 
-    </div>
+import { ApplicationViews } from "./components/views/ApplicationViews.js";
 
-  );
-}
 
-export default App;
+export const App = () => (
+  <>
+    <ApplicationViews />
+  </>
+)
+
+
+
+
+//! error with the following code being in the function: UseRoutes() may only be used in the context of a <Router> component
+//?  This module needed to be updated with React fragments as well - 5/4
+/*
+Attempt 1:
+// It needed Router as shown above!
+
+Attempt 2:
+// I am only returning ApplicationViews after comparing it to Honey-Rae
+
+<Routes>
+    <Route path="*" element={
+          <ApplicationViews />
+    
+    } />
+  </Routes>
+*/
+
 /*
 TEST - I made a dev branch 
 and will also be making a working branch. 
@@ -48,14 +57,3 @@ This work was done only on the work branch. Today I am practicing pushing
 to GH, and pulling it down onto all other branches!
 */
 
-/*
-      <div>
-        <ul>
-          <li>
-            <input type="radio" name="color"/> one
-            <input type="radio" name="color"/> two
-            <input type="radio" name="color"/> three
-          </li>
-        </ul>
-      </div>
-*/
