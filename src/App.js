@@ -7,28 +7,31 @@ This is also the module that the browser is reading directly/first
 
 
 // import logo from './logo.svg';
-// import Photo_Template from './Photo_Template.jpg'
 // import './App.css';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+// import Photo_Template from './Photo_Template.jpg'
+
+
 import { ApplicationViews } from "./components/views/ApplicationViews.js";
 
-function App() {
-  return (
-  <Router>
-    <Routes>
-      <Route path="*" element={<ApplicationViews />} />
-    </Routes>
-  </Router>
-  );
-}
+
+export const App = () => (
+  <>
+    <ApplicationViews />
+  </>
+)
 
 
-export default App;
 
 
 //! error with the following code being in the function: UseRoutes() may only be used in the context of a <Router> component
-//? It needed Router as shown above!
+//?  This module needed to be updated with React fragments as well - 5/4
 /*
+Attempt 1:
+// It needed Router as shown above!
+
+Attempt 2:
+// I am only returning ApplicationViews after comparing it to Honey-Rae
+
 <Routes>
     <Route path="*" element={
           <ApplicationViews />
@@ -54,14 +57,3 @@ This work was done only on the work branch. Today I am practicing pushing
 to GH, and pulling it down onto all other branches!
 */
 
-/*
-      <div>
-        <ul>
-          <li>
-            <input type="radio" name="color"/> one
-            <input type="radio" name="color"/> two
-            <input type="radio" name="color"/> three
-          </li>
-        </ul>
-      </div>
-*/
