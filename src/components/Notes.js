@@ -1,7 +1,12 @@
 /*
+
+*WIREFRAME: https://wireframe.cc/HFAW0f
+
+
+
+
+
 !What does BrowserRouter do?
-
-
 
 
 
@@ -29,17 +34,4 @@ you can pass an empty array ([]) to tell React to run the effect only once.
 
 TODO: Implement and explain in my own words
 
-*/
-
-
-/*
-    <div>
-        <ul>
-            <li>
-                <input type="radio" name="color"/> one
-                <input type="radio" name="color"/> two
-                <input type="radio" name="color"/> three
-            </li>
-        </ul>
-    </div>
 */
