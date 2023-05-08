@@ -8,7 +8,21 @@ I plan for the about me section to contain:
 */
 //! import Photo_Template from './Photo_Template.jpg'        <img src={Photo_Template} className="pfp" alt="template for profile pic" />
 
+
+//!This project isn't the most effective for learning React given that no state will be changing... 
+//! Next: Come up with another app that will change state
+
+
+
 export const AboutMe = () => {
+
+    const colorCheck = () =>{
+        alert("test!")
+    }
+
+
+
+
     return (
     <div className="aboutMe">
     
@@ -38,6 +52,10 @@ export const AboutMe = () => {
                     <input type="radio" name="color"/> Red
                 </li>
             </ul>
+
+            <button onClick={colorCheck()}>Check Answer</button>
+
+
             <ul> Book Series
                 <li>
                     <input type="radio" name="book"/> Percy Jackson & The Olympians (2005-2009)
