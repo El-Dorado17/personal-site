@@ -3,7 +3,7 @@
 *WIREFRAME: https://wireframe.cc/HFAW0f
 
 
-
+json-server -p 8088 database.json -w
 
 
 !What does BrowserRouter do?
@@ -33,5 +33,8 @@ If any of the values in the dependency list change, the effect will run again. I
 you can pass an empty array ([]) to tell React to run the effect only once.
 
 TODO: Implement and explain in my own words
+
+
+import Photo_Template from './Photo_Template.jpg'        <img src={Photo_Template} className="pfp" alt="template for profile pic" />
 
 */
