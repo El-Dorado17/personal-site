@@ -3,3 +3,7 @@ Styling Ideas
 -Need to set a max width and height for abt me 
 paragraph so it's not a continuous line! (classname "bio")
 */
+
+.facts{
+    border: 12px double black;
+}
