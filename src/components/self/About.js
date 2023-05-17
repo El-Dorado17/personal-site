@@ -38,29 +38,30 @@ The second argument of useEffect is an empty array, which means that the effect 
     the useEffect hook observes only the initial component state. Since this effect doesn't 
     depend on any props or state values, it doesn't need to be re-run when any of them change. //? Understood
 */
-import { useEffect } from "react"
-
+import { useEffect, useState } from "react"
+import "./About.css" 
 
 export const AboutMe = () => {
 
-// const [facts, setFacts] = useEffect([])
+const [facts, setFacts] = useState([])
 
 
-// useEffect(
-//     () => {
-//         fetch("http://localhost8088/facts")
-//         .then((response)=> response.json())
-//         .then((factArray)=> {
-//             setFacts(factArray)
-//         })
-//     },
-//     []
-// )
+useEffect(
+    () => {
+        fetch("http://localhost:8088/facts")
+        .then((response)=> response.json())
+        .then((factArray)=> {
+            setFacts(factArray)
+        })
+    },
+    []
+)
 
 return (
-    <h2>
-        Hello, World!
-    </h2>
-    
+    <div>
+        {facts.map((fact)=> (
+            <p className="facts" key={fact.id}>{fact.statement} {fact.valid}</p>
+        ))}
+    </div>
     )
 }
