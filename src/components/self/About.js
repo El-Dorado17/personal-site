@@ -57,11 +57,24 @@ useEffect(
     []
 )
 
+    const factButton = (factObj) => {
+        return(
+            <button onClick={(data)=>data}>
+                TEST BUTTON
+            </button>
+        )
+    }
+
 return (
     <div>
+        <div className="facts">
         {facts.map((fact)=> (
-            <p className="facts" key={fact.id}>{fact.statement} {fact.valid}</p>
+            <p className="fact" key={fact.id}>{fact.statement} {fact.valid}</p>
         ))}
+        </div>
+        <section>
+            {factButton()}
+        </section>
     </div>
     )
 }
