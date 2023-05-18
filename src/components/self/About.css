@@ -4,6 +4,15 @@ Styling Ideas
 paragraph so it's not a continuous line! (classname "bio")
 */
 
+
+.fact{
+    border: 2px double black;
+    width: 45%;
+}
+
 .facts{
+
     border: 12px double black;
+    display: flex;
+    flex-wrap: wrap;
 }
