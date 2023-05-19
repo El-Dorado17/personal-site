@@ -9,7 +9,8 @@ My new plan is to make this reactive by having data and then we can use fetch re
 This also means that this application will have an API to go along with it like my front-end capstone
 
 Upon rendering, user can select facts about me and the click to see how many they got right! 
-TODO: API will have the data to render, and the fetch request in my UseEffect will bring it in! 
+API will have the data to render, and the fetch request in my UseEffect will bring it in! 
+TODO: Make each fact a button that will hold the answer onClick... Score presented upon submit
 
 
 useEffect(
