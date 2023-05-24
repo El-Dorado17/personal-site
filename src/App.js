@@ -12,6 +12,7 @@ This is also the module that the browser is reading directly/first
 
 
 import { ApplicationViews } from "./components/views/ApplicationViews.js";
+import "./App.css"
 
 
 export const App = () => (
