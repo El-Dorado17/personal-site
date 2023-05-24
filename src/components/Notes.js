@@ -37,4 +37,35 @@ TODO: Implement and explain in my own words
 
 import Photo_Template from './Photo_Template.jpg'        <img src={Photo_Template} className="pfp" alt="template for profile pic" />
 
+
+
+
+
+
+useEffect(
+    () => {
+        fetch("http://localhost:8088/categories")
+            .then((response) => response.json())
+            .then((categoryArray) => {      //? <= Is the categoryArray the JSON response?
+                setCategories(categoryArray);
+            });
+    },
+    [] // When this array is empty, you are observing initial component state
+);
+
+The useEffect hook takes two arguments: a callback function and an array of dependencies. 
+    In this case, the callback function is an arrow function 
+    that fetches data from 
+    the "http://localhost:8088/categories" 
+    API endpoint using the fetch() method.  //?Understood
+
+Once the API data is fetched, the response object is converted to JSON format using the .json() method, 
+    and then the resulting categoryArray is passed as an argument to the setCategories function. setCategories 
+    is a state updater function that is used to set the state of the component with the fetched data. 
+
+The second argument of useEffect is an empty array, which means that the effect will 
+    only run once when the component is mounted. When the array of dependencies is empty, 
+    the useEffect hook observes only the initial component state. Since this effect doesn't 
+    depen
+
 */
