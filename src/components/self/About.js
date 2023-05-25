@@ -21,6 +21,19 @@ export const AboutMe = () => {
 const [facts, setFacts] = useState([])
 
 
+
+/*
+*5/25
+TODO: When a user clicks a box, that option needs to be recorded
+TODO: and when the user clicks for results; their answers need to be checked
+TODO: and given a score based off of correct/incorrect
+
+?I'm not sure how to do this all on one page, I think cycling
+?through the questions may be easier to make for now...
+*/
+
+
+
 useEffect(
     () => {
         fetch("http://localhost:8088/facts")
