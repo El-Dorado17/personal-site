@@ -6,9 +6,28 @@
 json-server -p 8088 database.json -w
 
 
-!What does BrowserRouter do?
 
 
+
+
+
+
+
+!How to keep track of a users selection
+*Display all answer choices may be simplest,
+*OnClick => ID of each answer stored to an Array State to keep track of what they selected
+
+
+
+
+
+
+
+
+
+
+
+What does BrowserRouter do?
 
 UseEffects
 
