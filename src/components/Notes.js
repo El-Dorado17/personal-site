@@ -15,19 +15,30 @@ json-server -p 8088 database.json -w
 
 !How to keep track of a users selection
 *Display all answer choices may be simplest,
-*OnClick => ID of each answer stored to an Array State to keep track of what they selected
+*OnClick => ID of each answer stored to an Array State to keep track of 
+*what they selected
 
 
 
 
 
+-React expresses state as HTML
+-UseEffect observes state
+-UseState sets state
+-State flows downward: A fetch req. in a parent component can be used within 2 children
+
+useEffect 
+    (function to run) = {updates state variable },
+    [state to observe]
 
 
 
+useState
+const [stateVariable, functionThatManipulates] = useState ([])
+                                                            ^Initial State
 
 
 
-What does BrowserRouter do?
 
 UseEffects
 
@@ -46,15 +57,16 @@ function MyComponent() {
 }
 
 The first argument to useEffect is a function that will run as the side effect.
-This function can be used to perform tasks such as setting up subscriptions or manipulating the DOM.
-The second argument to useEffect is an array of dependencies. This dependency list is used to tell React when to run the effect.
-If any of the values in the dependency list change, the effect will run again. If you don't have any dependencies, 
+This function can be used to perform tasks such as setting up subscriptions or 
+manipulating the DOM.
+The second argument to useEffect is an array of dependencies. This dependency 
+list is used to tell React when to run the effect.
+If any of the values in the dependency list change, the effect will run again. If 
+you don't have any dependencies, 
 you can pass an empty array ([]) to tell React to run the effect only once.
 
 TODO: Implement and explain in my own words
 
-
-import Photo_Template from './Photo_Template.jpg'        <img src={Photo_Template} className="pfp" alt="template for profile pic" />
 
 
 
