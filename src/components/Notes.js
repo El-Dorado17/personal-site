@@ -13,10 +13,7 @@ json-server -p 8088 database.json -w
 
 
 
-!How to keep track of a users selection
-*Display all answer choices may be simplest,
-*OnClick => ID of each answer stored to an Array State to keep track of 
-*what they selected
+
 
 
 
