@@ -23,13 +23,20 @@ const [facts, setFacts] = useState([])
 
 
 /*
-*5/25
-TODO: When a user clicks a box, that option needs to be recorded
-TODO: and when the user clicks for results; their answers need to be checked
-TODO: and given a score based off of correct/incorrect
+When a user clicks a box, that option needs to be recorded
+and when the user clicks for results; their answers need to be checked
+and given a score based off of correct/incorrect
 
-?I'm not sure how to do this all on one page, I think cycling
-?through the questions may be easier to make for now...
+!How to keep track of a users selection
+*Display all answer choices may be simplest,
+*OnClick => ID of each answer stored to an Array State to keep track of 
+*what they selected
+
+lies state, 
+state that stores answers
+fetch call that queries if its true and one that q's if its false
+
+what do i need to do next? Not big picture
 */
 
 
@@ -44,7 +51,7 @@ useEffect(
     },
     []
 )
-
+//is the selection true or false
     const handleClick = () => {
         console.log('Hello')
     }
@@ -62,7 +69,17 @@ return (
         <div className="facts">
         {facts.map((fact)=> (
             <p className="fact" key={fact.id}>{fact.statement} {fact.valid}</p>
-        ))}
+        ))} 
+
+        {facts.map((fact) => (
+    <div key={fact.id}>
+    <button className="fact" onClick={handleClick()}>{fact.statement} {fact.valid}</button>
+    
+    </div>
+))}
+
+
+
         </div>
         <section>
             {factButton()}
