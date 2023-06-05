@@ -20,8 +20,8 @@ useEffect(
 )
 
     const handleClick = (fact) => {
-        fact.valid? alert('Muy Bien!')
-        : alert('Definitely not!')
+        fact.valid? alert( `${fact.id}: Si! Well done!`)
+        : alert(`${fact.id}: Sorry, but definitely not!`)
     }
 
     
@@ -30,7 +30,7 @@ return (
     <div className="facts">
         {facts.map((fact) => (
         <div key={fact.id}>
-        <button className="fact" onClick={()=>handleClick(fact)}>{fact.statement} {fact.valid}</button>
+        <button className="button" onClick={()=>handleClick(fact)}> {fact.id}: {fact.statement} {fact.valid}</button>
         </div>
         ))}
     </div>
