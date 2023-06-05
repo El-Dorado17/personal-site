@@ -9,6 +9,7 @@ import { Route, Routes } from "react-router-dom"
 
 export const ApplicationViews = () => {
     return <>
+        <h1 className="banner">Welcome! Please select whichever fact about me you believe to be true</h1>
         <Routes>
             <Route path="/" element={<AboutMe/>}/>
         </Routes>
