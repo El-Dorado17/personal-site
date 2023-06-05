@@ -2,19 +2,24 @@
 Styling Ideas
 -Need to set a max width and height for abt me 
 paragraph so it's not a continuous line! (classname "bio")
+*/
 
 Body{
-    background-image: url(background-1.jpg);
+    background-image: url(background-2.jpg);
     background-repeat:no-repeat;
     background-size: 100%;
     }
-*/
-.fact{
-    border: 2px double black;
-    width: 45%;
+
+.button{
+    padding-left: 1px;
 }
 
 .facts{
-    
+    background-color: rgba(189, 106, 252, 0.407);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
     border: 12px double black;
+    height: 450px;
+    padding-left: 3px;
 }
