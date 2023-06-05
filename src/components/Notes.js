@@ -62,12 +62,18 @@ If any of the values in the dependency list change, the effect will run again. I
 you don't have any dependencies, 
 you can pass an empty array ([]) to tell React to run the effect only once.
 
-TODO: Implement and explain in my own words
 
 
 
 
+//!This project isn't the most effective for learning React given that no state will be changing... 
+//! Next: Come up with another app that will change state 5/8
+*5/12* *ACTUALLY: What we're gonna do (instead of starting ANOTHER project) is make this application REACT-ive!!
+My new plan is to make this reactive by having data and then we can use fetch requests to bring it back in!
+This also means that this application will have an API to go along with it like my front-end capstone
 
+Upon rendering, user can click on facts about me, they will be alerted if they clicked the correct answer
+API will have the data to render, and the fetch request in my UseEffect will bring it in! 
 
 
 useEffect(
@@ -94,6 +100,6 @@ Once the API data is fetched, the response object is converted to JSON format us
 The second argument of useEffect is an empty array, which means that the effect will 
     only run once when the component is mounted. When the array of dependencies is empty, 
     the useEffect hook observes only the initial component state. Since this effect doesn't 
-    depen
+    depend on any props or state values, it doesn't need to be re-run when any of them change. //? Understood
 
 */

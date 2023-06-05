@@ -15,8 +15,6 @@ Body{
 }
 
 .facts{
-
+    
     border: 12px double black;
-    display: flex;
-    flex-wrap: wrap;
 }
