@@ -1,35 +1,37 @@
 //? components ==> views ==> App.js ==> index.js ==> Browser renders
 //This file will contain the About Me function with info imported to AppViews
+//! REACT EXPRESSES JSCRIPT AS HTML
 
-import { useEffect, useState } from "react"
-import "./About.css" 
+import { useEffect, useState } from "react" //importing from the react library
+import "./About.css"  //CSS import so styles can be read by browser
 
-export const AboutMe = () => {
 
-const [facts, setFacts] = useState([])
+export const AboutMe = () => { //function declaration
 
-useEffect(
+const [facts, setFacts] = useState([])  // facts is a variable, setFacts is a function //!useState ESTABLISHES state
+
+useEffect( //!useEffect OBSERVES state (in this case nothing, meaning on initial render, give me all the facts)
     () => {
-        fetch("http://localhost:8088/facts")
-        .then((response)=> response.json())
-        .then((factArray)=> {
-            setFacts(factArray)
+        fetch("http://localhost:8088/facts") //fetch the facts from the api
+        .then((response)=> response.json()) //turn the facts back into JSON
+        .then((factArray)=> { //?Am I creating the factArray here? factArray = JSON facts from API?
+            setFacts(factArray) //setting the factArray so facts (line 11) is the fact array from API
         })
     },
-    []
+    [] // It's not monitoring anything, so this will fire on inital render and no other time
 )
 
-    const handleClick = (fact) => {
-        fact.valid? alert( `${fact.id}: Si! Well done!`)
-        : alert(`${fact.id}: Sorry, but definitely not!`)
+    const handleClick = (fact) => { //function with a fact parameter //! It is NOT an argument yet. The word fact could be 'taco' here
+        fact.valid? alert( `${fact.id}: Si! Well done!`) //is the valid property of the argument true? IF YES, alert Si
+        : alert(`${fact.id}: Sorry, but definitely not!`)// IF NO, alert Sorry
     }
 
     
 
-return (
-    <div className="facts">
-        {facts.map((fact) => (
-        <div key={fact.id}>
+return ( //Round parenthesis to return JSX
+    <div className="facts"> 
+        {facts.map((fact) => ( //mapping through facts, from now on known as fact
+        <div key={fact.id}> 
         <button className="button" onClick={()=>handleClick(fact)}> {fact.id}: {fact.statement} {fact.valid}</button>
         </div>
         ))}
