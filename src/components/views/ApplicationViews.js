@@ -4,14 +4,13 @@
 This module will host all my components so I can arrange them how I'd like
 This module gets imported to App.js as the final step to make the page!
 */
-import { AboutMe } from "../self/About.js"
+import { About } from "../about/About.js"
 import { Route, Routes } from "react-router-dom"
 
 export const ApplicationViews = () => {
     return <>
-        <h1 className="banner">Welcome! Please select whichever fact about me you believe to be true</h1>
         <Routes>
-            <Route path="/" element={<AboutMe/>}/>
+            <Route path="/" element={<About/>}/>
         </Routes>
     </>
 }

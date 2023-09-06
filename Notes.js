@@ -2,25 +2,23 @@
 
 *WIREFRAME: https://wireframe.cc/HFAW0f
 
-
+Run the API with:
 json-server -p 8088 database.json -w
 
 
 
-SELF/ABOUT.JS
+about/ABOUT.JS
 *Picture added
 !Bio
 
-SELF/GuessingGame.js
-!About me guessing game
-
-PROJECTS/projects.js
+projects/projects.js
 !Projects Page
 
+quiz/quiz.js
+!About me quiz form
 
-
-
-
+views/Application Views
+load order
 
 
 
