@@ -7,11 +7,16 @@ json-server -p 8088 database.json -w
 
 
 
-
+SELF/ABOUT.JS
 *Picture added
 !Bio
+
+SELF/GuessingGame.js
+!About me guessing game
+
+PROJECTS/projects.js
 !Projects Page
-!About me tab with guessing game
+
 
 
 
