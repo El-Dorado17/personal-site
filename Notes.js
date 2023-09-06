@@ -8,7 +8,7 @@ json-server -p 8088 database.json -w
 
 
 
-!Picture
+*Picture added
 !Bio
 !Projects Page
 !About me tab with guessing game
