@@ -3,7 +3,9 @@
 
 
 
-
+export function Quiz(params) {
+    
+}
 
 
 

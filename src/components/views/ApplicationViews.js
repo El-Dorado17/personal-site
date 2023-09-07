@@ -5,6 +5,8 @@ This module will host all my components so I can arrange them how I'd like
 This module gets imported to App.js as the final step to make the page!
 */
 import { About } from "../about/About.js"
+import { Projects } from "../projects/Projects.js"
+
 import { Route, Routes } from "react-router-dom"
 
 export const ApplicationViews = () => {
