@@ -14,6 +14,7 @@ export const ApplicationViews = () => {
         <Routes>
             <Route path="/" element={<About/>}/>
             <Route path="/" element={<Projects/>}/>
+            <Route path="/" element={<Quiz/>}/>
         </Routes>
     </>
 }
