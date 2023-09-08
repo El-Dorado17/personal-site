@@ -13,8 +13,8 @@ export const ApplicationViews = () => {
     return <>
         <Routes>
             <Route path="/" element={<About/>}/>
-            <Route path="/" element={<Projects/>}/>
-            <Route path="/" element={<Quiz/>}/>
+            {/* <Route path="/" element={<Projects/>}/>
+            <Route path="/" element={<Quiz/>}/> */}
         </Routes>
     </>
 }

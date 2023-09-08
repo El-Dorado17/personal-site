@@ -1,3 +1,7 @@
+import { useEffect, useState } from "react" //importing from the react library
+
+
+
 // Guessing Game (matching game maybe? 
 // or just select the correct input field and submit form
 
@@ -31,8 +35,6 @@ export function Quiz(params) {
 //This file will contain the About Me function with info imported to AppViews
 //! REACT EXPRESSES JSCRIPT AS HTML
 
-import { useEffect, useState } from "react" //importing from the react library
-import "./About.css"  //CSS import so styles can be read by browser
 
 
 export const AboutMe = () => { //function declaration
