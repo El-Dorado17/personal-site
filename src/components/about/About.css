@@ -4,17 +4,11 @@ Styling Ideas
 paragraph so it's not a continuous line! (classname "bio")
 */
 /* 
-{
+*{
     background-image: url(background-1.jpg);
     background-repeat:no-repeat;
     background-size:100%;
     background-position: center;
     background-color: rgb(50, 62, 78);
 
-    } */
-
-    
-/* 
-    .test{
-        ;
-    } */
+    }  */
