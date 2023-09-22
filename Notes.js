@@ -20,7 +20,7 @@ quiz/quiz.js
 views/Application Views
 load order
 
-
+Tailwind is running
 
 
 
