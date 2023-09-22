@@ -21,7 +21,8 @@ views/Application Views
 load order
 
 Tailwind is running
-
+next step is to get something on the page. 
+Nav bar should have about me, projects, and contact info
 
 
 
