@@ -11,6 +11,7 @@ export const About = () => {
         <>
         <img src={pfpImage} alt="spongebob picture" className="w-40 h-40 pl-4 pt-4 md:pt-8 lg:pt-12 "></img>
         <h1 className="pl-4 ">Ely Dorado</h1>
+        <p>here I'll have a bio, work history, and my skillset!</p>
         </>
     )
 }
