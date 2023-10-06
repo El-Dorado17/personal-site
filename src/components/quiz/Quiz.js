@@ -9,13 +9,16 @@ import { useEffect, useState } from "react" //importing from the react library
 
 export function Quiz(params) {
 
-    return(
+    return(<>
         <ol>
             <li> Question 1 </li>
             <li> Question 2 </li>
             <li> Question 3 </li>
             <li> Question 4 </li>
         </ol>
+        <br/>
+        <p>Just random silly questions to select answers for, and they'll immediately know if they were wrong/right!</p>
+        </>
     )
     
 }
