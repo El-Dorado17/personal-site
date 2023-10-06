@@ -2,9 +2,11 @@
 
 *WIREFRAME: https://wireframe.cc/HFAW0f
 
-Run the API with:
-json-server -p 8088 database.json -w
 
+
+//Run the API with:
+//json-server -p 8088 database.json -w
+!API NOT NEEDED AT THE MOMENT. Looking to just use this repo and nothing else
 
 
 about/ABOUT.JS
