@@ -6,9 +6,9 @@ export const NavBar = () =>{
         <ul className="flex justify-center space-x-8">
             <li> <Link to="/"> Home </Link> </li>
             <li> <Link to="/About"> About Me </Link> </li>
-            <li> Projects </li>
-            <li> Quiz </li>
-            <li> Photo Gallery </li>
+            <li> <Link to="/Projects"> Projects </Link> </li>
+            <li> <Link to="/Quiz"> Quiz </Link> </li>
+            <li> <Link to="/Photos"> Photo Gallery </Link> </li>
         </ul>
     )
 }

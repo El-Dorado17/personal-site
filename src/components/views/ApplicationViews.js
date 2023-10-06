@@ -6,8 +6,9 @@ This module gets imported to App.js as the final step to make the page!
 */
 import { About } from "../about/About.js"
 import { Home } from "../home/Home.js"
-//import { Projects } from "../projects/Projects.js"
-//import { Quiz } from "../quiz/Quiz.js"
+import { Projects } from "../projects/Projects.js"
+import { Quiz } from "../quiz/Quiz.js"
+import { Photos } from "../photos/Photos.js"
 import { NavBar } from "../nav/NavBar.js"
 import { Route, Routes } from "react-router-dom"
 
@@ -16,8 +17,9 @@ export const ApplicationViews = () => {
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/About" element={<About/>}/>
-            {/* <Route path="/" element={<Projects/>}/>
-            <Route path="/" element={<Quiz/>}/> */}
+            <Route path="/Projects" element={<Projects/>}/>
+            <Route path="/Quiz" element={<Quiz/>}/>
+            <Route path="/Photos" element={<Photos/>}/>
         </Routes>
     </>
 }

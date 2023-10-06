@@ -8,6 +8,15 @@ import { useEffect, useState } from "react" //importing from the react library
 
 
 export function Quiz(params) {
+
+    return(
+        <ol>
+            <li> Question 1 </li>
+            <li> Question 2 </li>
+            <li> Question 3 </li>
+            <li> Question 4 </li>
+        </ol>
+    )
     
 }
 
@@ -37,38 +46,38 @@ export function Quiz(params) {
 
 
 
-export const AboutMe = () => { //function declaration
+// export const AboutMe = () => { //function declaration
 
-const [facts, setFacts] = useState([])  // facts is a variable, setFacts is a function //!useState ESTABLISHES state
+// const [facts, setFacts] = useState([])  // facts is a variable, setFacts is a function //!useState ESTABLISHES state
 
-useEffect( //!useEffect OBSERVES state (in this case nothing, meaning on initial render, give me all the facts)
-    () => {
-        fetch("http://localhost:8088/facts") //fetch the facts from the api
-        .then((response)=> response.json()) //turn the facts back into JSON
-        .then((factArray)=> { //?Am I creating the factArray here? factArray = JSON facts from API?
-            setFacts(factArray) //setting the factArray so facts (line 11) is the fact array from API
-        })
-    },
-    [] // It's not monitoring anything, so this will fire on inital render and no other time
-)
+// useEffect( //!useEffect OBSERVES state (in this case nothing, meaning on initial render, give me all the facts)
+//     () => {
+//         fetch("http://localhost:8088/facts") //fetch the facts from the api
+//         .then((response)=> response.json()) //turn the facts back into JSON
+//         .then((factArray)=> { //?Am I creating the factArray here? factArray = JSON facts from API?
+//             setFacts(factArray) //setting the factArray so facts (line 11) is the fact array from API
+//         })
+//     },
+//     [] // It's not monitoring anything, so this will fire on inital render and no other time
+// )
 
-    const handleClick = (fact) => { //function with a fact parameter //! It is NOT an argument yet. The word fact could be 'taco' here
-        fact.valid? alert( `${fact.id}: Si! Well done!`) //is the valid property of the argument true? IF YES, alert Si
-        : alert(`${fact.id}: Sorry, but definitely not!`)// IF NO, alert Sorry
-    }
+//     const handleClick = (fact) => { //function with a fact parameter //! It is NOT an argument yet. The word fact could be 'taco' here
+//         fact.valid? alert( `${fact.id}: Si! Well done!`) //is the valid property of the argument true? IF YES, alert Si
+//         : alert(`${fact.id}: Sorry, but definitely not!`)// IF NO, alert Sorry
+//     }
 
     
 
-return ( //Round parenthesis to return JSX
-    <div className="facts"> 
-        {facts.map((fact) => ( //mapping through facts, from now on known as fact
-        <div key={fact.id}> 
-        <button className="button" onClick={()=>handleClick(fact)}> {fact.id}: {fact.statement} {fact.valid}</button>
-        </div>
-        ))}
-    </div>
-    )
-}
+// return ( //Round parenthesis to return JSX
+//     <div className="facts"> 
+//         {facts.map((fact) => ( //mapping through facts, from now on known as fact
+//         <div key={fact.id}> 
+//         <button className="button" onClick={()=>handleClick(fact)}> {fact.id}: {fact.statement} {fact.valid}</button>
+//         </div>
+//         ))}
+//     </div>
+//     )
+// }
 
 
 
