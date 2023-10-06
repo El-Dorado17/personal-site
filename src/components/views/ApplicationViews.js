@@ -9,6 +9,7 @@ import { Home } from "../home/Home.js"
 import { Projects } from "../projects/Projects.js"
 import { Quiz } from "../quiz/Quiz.js"
 import { Photos } from "../photos/Photos.js"
+import { Contact } from "../contact/Contact.js"
 import { NavBar } from "../nav/NavBar.js"
 import { Route, Routes } from "react-router-dom"
 
@@ -20,6 +21,7 @@ export const ApplicationViews = () => {
             <Route path="/Projects" element={<Projects/>}/>
             <Route path="/Quiz" element={<Quiz/>}/>
             <Route path="/Photos" element={<Photos/>}/>
+            <Route path="/Contact" element={<Contact/>}/>
         </Routes>
     </>
 }

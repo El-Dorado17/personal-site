@@ -9,23 +9,11 @@
 !API NOT NEEDED AT THE MOMENT. Looking to just use this repo and nothing else
 
 
-about/ABOUT.JS
-*Picture added
-!Bio
-
-projects/projects.js
-!Projects Page
-
-quiz/quiz.js
-!About me quiz form
 
 views/Application Views
 load order
 
 Tailwind is running
-next step is to get something on the page. 
-Nav bar should have about me, projects, and contact info
-
 
 
 -React expresses state as HTML
