@@ -5,7 +5,7 @@ import React from "react"
 export function Projects() {
     
     return(<>
-    <div className="min-h-screen bg-gradient-to-b from-green-200 to-purple-200">
+    <div className="min-h-screen bg-gradient-to-b from-green-200 to-purple-300">
         <ul>
             <li> Project 1 </li>
             <li> Project 2 </li>
