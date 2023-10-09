@@ -9,6 +9,8 @@ export const Home = () =>{
         <p>  ----Ely Dorado----   </p>
         <p>  --Software Developer--   </p>
         <p>maybe as the user scrolls it'll reveal an image of me?</p>
+
+
         </>
     )
 }

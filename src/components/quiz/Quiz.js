@@ -28,7 +28,12 @@ export function Quiz(params) {
 
 
 
+/*
+    !Can incorporate this
+        <label for="test">Weekly progress:</label>
+        <meter id="test" value="5" min="0" max="10">5 out of 10</meter><br></br>
 
+*/
 
 
 
