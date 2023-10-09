@@ -10,6 +10,7 @@ import { useEffect, useState } from "react" //importing from the react library
 export function Quiz(params) {
 
     return(<>
+    <div className="min-h-screen bg-gradient-to-b from-green-200 to-yellow-300">
         <ol>
             <li> Question 1 </li>
             <li> Question 2 </li>
@@ -18,6 +19,7 @@ export function Quiz(params) {
         </ol>
         <br/>
         <p>Just random silly questions to select answers for, and they'll immediately know if they were wrong/right!</p>
+        </div>
         </>
     )
     
