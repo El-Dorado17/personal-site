@@ -20,9 +20,6 @@
 
 
 
-views/Application Views
-load order
-
 Tailwind is running
 
 
@@ -73,26 +70,6 @@ you can pass an empty array ([]) to tell React to run the effect only once.
 
 
 
-//!This project isn't the most effective for learning React given that no state will be changing... 
-//! Next: Come up with another app that will change state 5/8
-*5/12* *ACTUALLY: What we're gonna do (instead of starting ANOTHER project) is make this application REACT-ive!!
-My new plan is to make this reactive by having data and then we can use fetch requests to bring it back in!
-This also means that this application will have an API to go along with it like my front-end capstone
-
-Upon rendering, user can click on facts about me, they will be alerted if they clicked the correct answer
-API will have the data to render, and the fetch request in my UseEffect will bring it in! 
-
-
-useEffect(
-    () => {
-        fetch("http://localhost:8088/categories")
-            .then((response) => response.json())
-            .then((categoryArray) => {      //? <= Is the categoryArray the JSON response?
-                setCategories(categoryArray);
-            });
-    },
-    [] // When this array is empty, you are observing initial component state
-);
 
 The useEffect hook takes two arguments: a callback function and an array of dependencies. 
     In this case, the callback function is an arrow function 
