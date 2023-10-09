@@ -2,15 +2,12 @@ export const Home = () =>{
     
 
     return(<>
-        <h1> This is the Home Page </h1>
-
+    <div className="min-h-screen bg-green-200 p-10">
         <br/>
-        <p>Here I'll have a background image with my name front and center</p>
-        <p>  ----Ely Dorado----   </p>
-        <p>  --Software Developer--   </p>
-        <p>maybe as the user scrolls it'll reveal an image of me?</p>
+        <p className="text-3x1 text-red-400 font-bold mb-2 text-center">  ----Ely Dorado----   </p>
+        <p className="text-x1 text-center">  --Software Developer--   </p>
 
-
+    </div>
         </>
     )
 }
