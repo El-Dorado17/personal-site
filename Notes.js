@@ -131,7 +131,14 @@ Discord bot maybe??
 Questions to select about me. (Radio buttons and select/options)
 upon submit, display correct number and incorrect submittions with right answers
 
+*Photo Gallery
+basically just some screenshots of Projects, 
+other pictures of me and things I like to do with descriptions under them
 
+*CONTACT
+Email
+LinkedIn
+GitHub
 
 
 
