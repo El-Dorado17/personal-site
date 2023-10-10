@@ -102,10 +102,24 @@ Tailwind, CSS, HTML, SQL?,
 
 
 
+//*  HOME   ABOUT ME    PROJECTS    QUIZ    PHOTO GALLERY   CONTACT 
+
+Right now, upon start the page is really simple: My name, and title
+
+*HOME
+I'm looking to make first page just a classy title card. 
+Ely Dorado, SD, Maybe a link to LinkedIn & GitHub
+
+
+*ABOUT ME
+I'll have a picture of me, 
+little bio
+skillset
+work history
 
 
 
-
+*Projects
 
 
 
