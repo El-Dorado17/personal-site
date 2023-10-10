@@ -127,6 +127,10 @@ Vacation Station //!SCREENSHOTS NEEDED & LINK TO VIDEO DEMONSTRATION
 Discord bot maybe??
 
 
+*QUIZ 
+Questions to select about me. (Radio buttons and select/options)
+upon submit, display correct number and incorrect submittions with right answers
+
 
 
 
