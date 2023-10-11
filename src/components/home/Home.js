@@ -3,9 +3,9 @@ export const Home = () =>{
 
     return(<>
     <section className= " min-h-screen bg-[url('https://www.techrepublic.com/wp-content/uploads/2012/02/ScreenShot9.png')] bg-cover bg-center bg-fixed p-10">
-        <article title="this is my name" className=" bg-green-200 h-80 p-10  bg-cover bg-center relative">
+        <article title="this is my name" className=" bg-green-200 h-80 p-10  bg-cover bg-center flex items-center justify-center">
             
-            <div className="flex flex-col items-end justify-center">
+            <div className="flex flex-col items-center">
 
             <p className=" text-6xl mb-6 ">Ely Dorado </p>
             
@@ -13,7 +13,7 @@ export const Home = () =>{
 
             </div>
 
-            <img className="absolute inset-0 object-cover" src="https://media.licdn.com/dms/image/C4D03AQFN94ndXIuFow/profile-displayphoto-shrink_400_400/0/1661618824653?e=1702512000&v=beta&t=NagxC9SaA-RWQgrliESWVczo7KLdbMJsjmNg_hDHgII"/>
+            {/* <img className="absolute inset-0 object-cover" src="https://media.licdn.com/dms/image/C4D03AQFN94ndXIuFow/profile-displayphoto-shrink_400_400/0/1661618824653?e=1702512000&v=beta&t=NagxC9SaA-RWQgrliESWVczo7KLdbMJsjmNg_hDHgII" alt="pic of me"/> */}
 
         </article>
 
@@ -25,7 +25,7 @@ export const Home = () =>{
                 <div>
                     project 1 SOL
                 </div>
-                <img src="h.JPG"/>
+                {/* <img src="h.JPG" alt="pic of Hawaii"/> */}
             </section>
             <section>
                 <div>
