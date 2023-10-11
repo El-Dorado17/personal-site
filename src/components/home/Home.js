@@ -3,7 +3,7 @@ export const Home = () =>{
 
     return(<>
     <section className= " min-h-screen bg-[url('https://www.techrepublic.com/wp-content/uploads/2012/02/ScreenShot9.png')] bg-cover bg-center bg-fixed ">
-        <article title="this is my name" className=" bg-green-200 h-80 p-10 flex flex-col items-center justify-center bg-cover bg-center ">
+        <article title="this is my name" className=" bg-green-200 h-80 p-80  flex flex-col items-center justify-center bg-cover bg-center ">
             
             <p className=" text-6xl mb-6 ">Ely Dorado </p>
             
@@ -12,17 +12,17 @@ export const Home = () =>{
         </article>
         <br/>
         <article className="bg-blue-200 h-80 p-10" >
-            <p>next</p>
+            <p>projects</p>
         </article>
 
         <br/>
         <article className="bg-blue-200 h-80 p-10" >
-            <p>next</p>
+            <p>work experience</p>
         </article>
 
         <br/>
         <article className="bg-blue-200 h-80 p-10" >
-            <p>next</p>
+            <p>Contact</p>
         </article>
     </section>
         </>
