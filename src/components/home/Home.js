@@ -2,12 +2,17 @@ export const Home = () =>{
     
 
     return(<>
-    <div className="min-h-screen bg-green-200 p-10">
-        <br/>
-        <p className="text-3x1 text-red-400 font-bold mb-2 flex items-center justify-center">Ely Dorado</p>
-        <p className="text-x1 text-center">Software Developer</p>
+    <section className= "min-h-screen bg-[url('https://www.techrepublic.com/wp-content/uploads/2012/02/ScreenShot9.png')] bg-cover bg-center bg-fixed ">
+        <article className=" h-80 bg-red-200 p-10">
+            <br/>
+            <p className="text-6xl flex items-center justify-center p-6">Ely Dorado</p>
+            <p className="text-3xl text-center">Software Developer</p>
 
-    </div>
+        </article>
+        <div>
+
+        </div>
+    </section>
         </>
     )
 }

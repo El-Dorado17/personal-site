@@ -152,16 +152,6 @@ GitHub
 
 
 
-min-h-screen
-
-
-bg-blue-500
-
-
-flex items-center justify-center
-
-
-
 
 
 
