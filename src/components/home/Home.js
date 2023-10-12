@@ -153,8 +153,16 @@ const navigate = useNavigate()
 
         <br/>
         <article className="bg-blue-200 h-80 p-10" >
-            <p>Contact</p>
+            <p className="flex justify-center">CONTACT</p>
+            <section>
+                <p> </p>
+                <a className="text-blue-600" target="_blank" href="https://www.linkedin.com/in/e/">LinkedIn Profile</a>
+                <img src="./github-mark-white.png" alt="github cat" />
+
+            </section>
         </article>
+
+
         {document.addEventListener('keydown', keyHandler, false)}
     </section>
         </>
