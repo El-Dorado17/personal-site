@@ -55,24 +55,25 @@ const navigate = useNavigate()
 
         <br/>
 
-        <article className="bg-blue-200 h-screen p-10" >
+        <article className="bg-blue-200 h-screen p-10 " >
             <p className=" flex justify-center text-3xl">PROJECTS</p>
-            <section>
-                <div>
-                    project 1 SOL
+                <div className="">
+                    <section className="border-solid-2">
+                        <div>
+                            project 1 SOL
+                        </div>
+                    </section>
+                    <section>
+                        <div>
+                            project 2 QK
+                        </div>
+                    </section>
+                    <section>
+                        <div>
+                            project 3 VS
+                        </div>
+                    </section>
                 </div>
-                {/* <img src="h.JPG" alt="pic of Hawaii"/> */}
-            </section>
-            <section>
-                <div>
-                    project 2 QK
-                </div>
-            </section>
-            <section>
-                <div>
-                    project 3 VS
-                </div>
-            </section>
         </article>
 
         <br/>
