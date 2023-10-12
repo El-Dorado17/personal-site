@@ -156,7 +156,7 @@ const navigate = useNavigate()
             <p className="flex justify-center">CONTACT</p>
             <section>
                 <p> </p>
-                <a className="text-blue-600" target="_blank" href="https://www.linkedin.com/in/e/">LinkedIn Profile</a>
+                <a className="text-blue-600" target="_blank" href="https://www.linkedin.com/in/ely-dorado/">LinkedIn Profile</a>
                 <img src="./github-mark-white.png" alt="github cat" />
 
             </section>
