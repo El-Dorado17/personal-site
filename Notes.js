@@ -107,7 +107,8 @@ Tailwind, CSS, HTML, SQL?,
 Right now, upon start the page is really simple: My name, and title
 
 *HOME
-I'm looking to make first page just a classy title card. 
+I'm looking to make first page to be the highlights of me. 
+If a recruiter needs more info, they can click around the nav bar
 Ely Dorado, SD, Maybe a link to LinkedIn & GitHub
 
 
@@ -151,12 +152,12 @@ GitHub
 
 
 
+»
 
 
 
 
-
-
+•
 
 
 

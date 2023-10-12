@@ -56,7 +56,7 @@ const navigate = useNavigate()
         <br/>
 
         <article className="bg-blue-200 h-screen p-10" >
-            <p className=" flex justify-center text-3xl">Projects</p>
+            <p className=" flex justify-center text-3xl">PROJECTS</p>
             <section>
                 <div>
                     project 1 SOL
@@ -76,8 +76,48 @@ const navigate = useNavigate()
         </article>
 
         <br/>
-        <article className="bg-blue-200 h-80 p-10" >
-            <p>work experience</p>
+        <article className="bg-blue-200 h-screen p-10 " >
+            <p className="flex justify-center text-3xl pb-8">EXPERIENCE</p>
+                <div className="flex justify-evenly"> 
+                    <section className="w-80"> 
+                        <div> 
+                            <h1>Dal-Tile Corporation</h1>
+                            <h2>Operator & Technician</h2>
+                            <h4>September 2021 - December 2022</h4>
+                            <ul>
+
+                                <p>OPERATOR</p>
+                                <li>‣ Set new production record among all 4 shifts within four months of start date </li>
+                                <li>‣ Maintained machinery as needed for optimal production rate </li>
+                                <li>‣ Checked finished products for correct labeling, presentation, and quantities </li>
+
+                                <p>TECHNICIAN</p>
+                                <li>‣ Operated front-end-loader to keep raw material ready for production </li>
+                                <li>‣ Frequently tested slip & finished powder to verify product satisfiesQ.C. Standards </li>
+                                <li>‣ Stopped and restarted Ball-Mill & Spray-Dryer for cleaning, mechanical-assessment, and routine maintenence</li>
+
+                            </ul>
+                        
+                        </div>
+                    </section>
+
+                    <br/>
+
+                    <section className="w-80"> 
+                        <div>
+                            <h1>Irwin Painting Company</h1>
+                            <h2>Estimator</h2>
+                            <h4>November 2020 - August 2021</h4>
+                            <ul>
+                                <li>‣ Networked with General Contractors to help finalize bidding prices via email, phone, and in-person meetings </li>
+                                <li>‣ Analyzed architectural plans using estimating software to provide accurate accounts of square footages for paint, equipment, labor costs, and other material</li>
+                                <li>‣ Reviewed all estimatied quantities with company president;  preventing miscommunications & ensuring accurate pricing </li>
+                                <li>‣ Successful contracts ($80,000 to $218,000) include: NSCC, MTSU, & Vanderbilt University </li>
+
+                            </ul>
+                        </div>
+                    </section>
+                </div>
         </article>
 
         <br/>
