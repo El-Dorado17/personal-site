@@ -101,6 +101,9 @@ Ely Dorado, SD, Maybe a link to LinkedIn & GitHub
 
 TODO target="_blank" rel="noreferrer" ??
 
+?image background format
+style={{ backgroundImage: `url(${Hawaii})` }}
+
 *ABOUT ME
 I'll have a picture of me, 
 little bio

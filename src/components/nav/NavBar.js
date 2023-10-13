@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const NavBar = () =>{
 
     return(
-        <ul className="fixed flex justify-between p-4 w-full text-green-400">
+        <ul className="fixed flex justify-around p-5 w-full text-yellow-500 bg-gray-900">
             <li> <Link to="/"> Home </Link> </li>
             <li> <Link to="/About"> About </Link> </li>
             <li> <Link to="/Projects"> Projects </Link> </li>

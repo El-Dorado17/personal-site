@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import GitHubCat from '/home/dorado/workspace/personal-site/src/images/github-mark-white.png'
 import LinkedInSquare from '/home/dorado/workspace/personal-site/src/images/linked-in-square.png'
-import Hawaii from '/home/dorado/workspace/personal-site/src/images/hawaii.JPG'
+import BlackNGold from '/home/dorado/workspace/personal-site/src/images/black-n-gold.jpg'
 
 export const Home = () =>{
     
@@ -41,8 +41,9 @@ const navigate = useNavigate()
 
 
     return(<>
-    <section className= " min-h-screen bg-cover bg-center bg-fixed p-10"  style={{ backgroundImage: `url(${Hawaii})` }}>
-        <article title="this is my name" className=" bg-green-200 h-80 p-10  bg-cover bg-center flex items-center justify-center">
+    <section className= " min-h-screen bg-cover bg-center bg-fixed p-10" style={{ backgroundImage: `url(${BlackNGold})` }} >
+        <br/> <br/> <br/> <br/> <br/>
+        <article title="this is my name" className=" bg-gray-900 h-80 p-10  bg-cover bg-center flex items-center justify-center rounded-xl text-yellow-500">
             
             <div className="flex flex-col items-center">
 
@@ -58,7 +59,7 @@ const navigate = useNavigate()
 
         <br/>   <br/>   <br/>   <br/>   <br/>   <br/>   <br/>
 
-        <article className="bg-blue-200 h-screen p-4" >
+        <article className="bg-gray-900  p-4 text-yellow-500" >
             <p className=" flex justify-center text-3xl pb-2">PROJECTS</p>
 
             <div className="p-2">
@@ -110,7 +111,7 @@ const navigate = useNavigate()
         </article>
 
         <br/>
-        <article className="bg-blue-200 h-screen p-10 " >
+        <article className="bg-gray-900 text-yellow-500 p-10 " >
             <p className="flex justify-center text-3xl pb-8">EXPERIENCE</p>
                 <div className="flex justify-evenly"> 
                     <section className="w-80"> 
@@ -155,20 +156,18 @@ const navigate = useNavigate()
         </article>
 
         <br/>
-        <article className="bg-blue-200 h-60 p-10" >
+        <article className="bg-gray-900 text-yellow-500 p-10" >
             <p className="flex justify-center text-3xl pb-8">CONTACT</p>
-                <section className="flex justify-around">
-                    <a href="mailto:2018dorado@gmail.com" className="text-blue-600">2018dorado@gmail.com</a>
-                    <a href="tel:+1234567890">123-456-7890</a>
+                <section className="flex justify-around ">
+                    <a href="mailto:2018dorado@gmail.com" className="text-blue-600 pb-2">2018dorado@gmail.com</a>
+                    <a href="tel:+1234567890" className="pb-2">(615) 294-6390</a>
 
-                    <p> </p>
-                </section>
-            <section className="flex justify-around" >
+                {/* </section>
+            <section className="flex justify-around" > */}
                 
-                <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer"> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 "/> </a>
+                <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer"> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 pb-2"/> </a>
                 
-                <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" > <img src={GitHubCat} alt="github cat" className="w-8"/> </a>
-
+                <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" > <img src={GitHubCat} alt="github cat" className="w-8 pb-2"/> </a>
             </section>
         </article>
 
