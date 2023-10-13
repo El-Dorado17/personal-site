@@ -99,6 +99,7 @@ I'm looking to make first page to be the highlights of me.
 If a recruiter needs more info, they can click around the nav bar
 Ely Dorado, SD, Maybe a link to LinkedIn & GitHub
 
+TODO target="_blank" rel="noreferrer" ??
 
 *ABOUT ME
 I'll have a picture of me, 

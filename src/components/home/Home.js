@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import cat from '/home/dorado/workspace/personal-site/src/github-mark-white.png'
+import linked from '/home/dorado/workspace/personal-site/src/LI-In-Bug.png'
 
 export const Home = () =>{
     
@@ -68,7 +70,7 @@ const navigate = useNavigate()
                         
                     </div>
                     <div className="border-solid border-2 border-gray-900">
-                        <img src=""/>
+                        <img src="" alt="pic of the proj"/>
                         *pic goes here*
                     </div>
                 </section>
@@ -83,7 +85,7 @@ const navigate = useNavigate()
                         <p>SOL was my first project I made to show my knowledge of front-end tech. JSON Server handles  pb-6requests. Create ands Delete only, video, and deployed </p>
                     </div>
                     <div className="border-solid border-2 border-gray-900">
-                        <img src=""/>
+                        <img src="" alt="pic of the proj"/>
                         *pic goes here*
                     </div>
                 </section>
@@ -98,7 +100,7 @@ const navigate = useNavigate()
                         
                     </div>
                     <div className="border-solid border-2 border-gray-900">
-                        <img src=""/>
+                        <img src="" alt="pic of the proj"/>
                         *pic goes here*
                     </div>
                 </section>
@@ -152,12 +154,19 @@ const navigate = useNavigate()
         </article>
 
         <br/>
-        <article className="bg-blue-200 h-80 p-10" >
-            <p className="flex justify-center">CONTACT</p>
-            <section>
-                <p> </p>
-                <a className="text-blue-600" target="_blank" href="https://www.linkedin.com/in/ely-dorado/">LinkedIn Profile</a>
-                <img src="./github-mark-white.png" alt="github cat" />
+        <article className="bg-blue-200 h-60 p-10" >
+            <p className="flex justify-center text-3xl pb-8">CONTACT</p>
+                <section className="flex justify-around">
+                    <a href="mailto:2018dorado@gmail.com" className="text-blue-600">2018dorado@gmail.com</a>
+                    <a href="tel:+1234567890">123-456-7890</a>
+
+                    <p> </p>
+                </section>
+            <section className="flex justify-around" >
+                
+                <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer"> <img src={linked} alt="LinkedIn logo" className="w-8 "/> </a>
+                
+                <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" > <img src={cat} alt="github cat" className="w-8"/> </a>
 
             </section>
         </article>
