@@ -1,7 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import cat from '/home/dorado/workspace/personal-site/src/github-mark-white.png'
-import linked from '/home/dorado/workspace/personal-site/src/LI-In-Bug.png'
+import GitHubCat from '/home/dorado/workspace/personal-site/src/images/github-mark-white.png'
+import LinkedInSquare from '/home/dorado/workspace/personal-site/src/images/linked-in-square.png'
+import Hawaii from '/home/dorado/workspace/personal-site/src/images/hawaii.JPG'
 
 export const Home = () =>{
     
@@ -40,7 +41,7 @@ const navigate = useNavigate()
 
 
     return(<>
-    <section className= " min-h-screen bg-[url('https://www.techrepublic.com/wp-content/uploads/2012/02/ScreenShot9.png')] bg-cover bg-center bg-fixed p-10">
+    <section className= " min-h-screen bg-cover bg-center bg-fixed p-10"  style={{ backgroundImage: `url(${Hawaii})` }}>
         <article title="this is my name" className=" bg-green-200 h-80 p-10  bg-cover bg-center flex items-center justify-center">
             
             <div className="flex flex-col items-center">
@@ -55,7 +56,7 @@ const navigate = useNavigate()
 
         </article>
 
-        <br/>
+        <br/>   <br/>   <br/>   <br/>   <br/>   <br/>   <br/>
 
         <article className="bg-blue-200 h-screen p-4" >
             <p className=" flex justify-center text-3xl pb-2">PROJECTS</p>
@@ -164,9 +165,9 @@ const navigate = useNavigate()
                 </section>
             <section className="flex justify-around" >
                 
-                <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer"> <img src={linked} alt="LinkedIn logo" className="w-8 "/> </a>
+                <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer"> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 "/> </a>
                 
-                <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" > <img src={cat} alt="github cat" className="w-8"/> </a>
+                <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" > <img src={GitHubCat} alt="github cat" className="w-8"/> </a>
 
             </section>
         </article>
