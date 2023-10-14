@@ -12,3 +12,7 @@ paragraph so it's not a continuous line! (classname "bio")
     background-color: rgb(50, 62, 78);
 
     }  */
+
+    .picture{
+        border-radius: 7%;
+    }

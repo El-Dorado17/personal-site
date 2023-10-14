@@ -2,17 +2,28 @@
 
 import pfpImage from "./pfp.jpg"
 import "../about/About.css"
-
+import Ely from '/home/dorado/workspace/personal-site/src/images/personal/Resume Picture (cropped).jpg'
 
 export const About = () => {
 
 
     return(
         <>
-        <div className="min-h-screen bg-gradient-to-b from-green-200 to-blue-300">
-        <img src={pfpImage} alt="spongebob picture" className="w-40 h-40 pl-4 pt-4 md:pt-8 lg:pt-12 "></img>
-        <h1 className="pl-4 ">Ely Dorado</h1>
-        <p>here I'll have a bio, work history, and my skillset!</p>
+        <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 ">
+            <article>
+
+                <br/> <br/> <br/>
+                <div className=" ">
+                    <img src={Ely} alt="self portrait" className="h-80 pl-2 picture" />
+                    <p className="pl-4 text-yellow-500">Ely Dorado</p>
+                </div>
+
+                <section>
+
+                    <p>here I'll have a bio, work history, and my skillset!</p>
+                </section>
+                
+            </article>
         </div>
         </>
     )
