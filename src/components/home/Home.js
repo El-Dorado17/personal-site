@@ -112,6 +112,23 @@ const navigate = useNavigate()
             </div>
         </article>
 
+
+<br/>
+        <article title="this is my name" className=" bg-gray-900 h-80 p-10  bg-cover bg-center flex justify-center rounded-xl text-yellow-500">
+            
+            <div className="flex flex-col items-center">
+
+            <p className=" text-3xl mb-6 ">MY SKILLSET </p>
+            
+            {/* <p className=" text-4xl "> JS, React, HTML, CSS, SQL, Python, Django </p> */}
+
+            </div>
+
+            {/* <img className="absolute inset-0 object-cover" src="https://media.licdn.com/dms/image/C4D03AQFN94ndXIuFow/profile-displayphoto-shrink_400_400/0/1661618824653?e=1702512000&v=beta&t=NagxC9SaA-RWQgrliESWVczo7KLdbMJsjmNg_hDHgII" alt="pic of me"/> */}
+
+        </article>
+
+
         <br/>
         <article className="bg-gray-900 text-yellow-500 p-10 " >
             <p className="flex justify-center text-3xl pb-8">EXPERIENCE</p>
