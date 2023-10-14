@@ -3,6 +3,9 @@ import { useNavigate } from "react-router-dom";
 import GitHubCat from '/home/dorado/workspace/personal-site/src/images/github-mark-white.png'
 import LinkedInSquare from '/home/dorado/workspace/personal-site/src/images/linked-in-square.png'
 import BlackNGold from '/home/dorado/workspace/personal-site/src/images/black-n-gold.jpg'
+import WelcomeQK from '/home/dorado/workspace/personal-site/src/images/qk/qk welcome.png'
+import WelcomeSOL from '/home/dorado/workspace/personal-site/src/images/sol/sol-main.png'
+
 
 export const Home = () =>{
     
@@ -71,9 +74,8 @@ const navigate = useNavigate()
                         <p>QK is a full CRUD application that allows users to track their video game progress.</p>
                         
                     </div>
-                    <div className="border-solid border-2 border-gray-900">
-                        <img src="" alt="pic of the proj"/>
-                        *pic goes here*
+                    <div className="border-solid border-2 border-yellow-500 w-4/6">
+                        <img src={WelcomeQK} alt="pic of the proj"/>
                     </div>
                 </section>
                 <p className="flex justify-end pb-6"> *links to code, video, and deployed*</p>
@@ -81,16 +83,16 @@ const navigate = useNavigate()
 
                 <div>
                 <section className="flex justify-between ">
-                <div className="w-1/3 ">
+                <div className="w-1/3">
                         <h1>Study Other Languages (S.O.L.)</h1>
                         <h3>Tech Used: JavaScript, React, JSON Server, HTML, CSS</h3>
                         <p>SOL was my first project I made to show my knowledge of front-end tech. JSON Server handles  pb-6requests. Create ands Delete only, video, and deployed </p>
                     </div>
-                    <div className="border-solid border-2 border-gray-900">
-                        <img src="" alt="pic of the proj"/>
-                        *pic goes here*
+                    <div className="border-solid border-2   border-yellow-500 w-4/6">
+                        <img src={WelcomeSOL} alt="pic of the proj"/>
                     </div>
                 </section>
+
                 <p className="flex justify-end pb-6"> *links to code, video, and deployed*</p>
                 </div>
 
@@ -159,15 +161,11 @@ const navigate = useNavigate()
         <article className="bg-gray-900 text-yellow-500 p-10" >
             <p className="flex justify-center text-3xl pb-8">CONTACT</p>
                 <section className="flex justify-around ">
+                    <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer"> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 pb-2"/> </a>
+                    <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" > <img src={GitHubCat} alt="github cat" className="w-8 pb-2"/> </a>
                     <a href="mailto:2018dorado@gmail.com" className="text-blue-600 pb-2">2018dorado@gmail.com</a>
                     <a href="tel:+1234567890" className="pb-2">(615) 294-6390</a>
 
-                {/* </section>
-            <section className="flex justify-around" > */}
-                
-                <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer"> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 pb-2"/> </a>
-                
-                <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" > <img src={GitHubCat} alt="github cat" className="w-8 pb-2"/> </a>
             </section>
         </article>
 
