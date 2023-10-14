@@ -1,6 +1,9 @@
 import "../about/About.css"
 import Ely from '/home/dorado/workspace/personal-site/src/images/personal/Resume Picture (cropped).jpg'
 
+//! INCLUDE WHAT I KNOW IN HOME SECTION
+
+
 export const About = () => {
 
 
@@ -29,11 +32,18 @@ export const About = () => {
                     </section>
                 </div>
 
+                <br/> <br/>
                 <section>
 
-                    <p>here I'll have a bio, work history, and my skillset!</p>
+                    <p>here I'll have my skillset!</p>
                 </section>
-                
+
+                <br/> <br/>
+                <section>
+
+                    <p>here I'll have work history, and my skillset!</p>
+                </section>
+
             </article>
         </div>
         </>
