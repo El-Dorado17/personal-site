@@ -120,7 +120,7 @@ const navigate = useNavigate()
 
             <p className=" text-3xl mb-6 ">MY SKILLSET </p>
             
-            {/* <p className=" text-4xl "> JS, React, HTML, CSS, SQL, Python, Django </p> */}
+            {/* //! find & integrate icons <p className=" text-4xl "> JS, React, HTML, CSS, SQL, Python, Django </p> */}
 
             </div>
 
