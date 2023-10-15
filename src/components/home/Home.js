@@ -5,7 +5,14 @@ import LinkedInSquare from '/home/dorado/workspace/personal-site/src/images/link
 import BlackNGold from '/home/dorado/workspace/personal-site/src/images/black-n-gold.jpg'
 import WelcomeQK from '/home/dorado/workspace/personal-site/src/images/qk/qk welcome.png'
 import WelcomeSOL from '/home/dorado/workspace/personal-site/src/images/sol/sol-main.png'
-
+import HTMLIcon from '/home/dorado/workspace/personal-site/src/images/skillset/html.png'
+import CSSIcon from '/home/dorado/workspace/personal-site/src/images/skillset/css.png'
+import JSIcon from '/home/dorado/workspace/personal-site/src/images/skillset/js.webp'
+import ReactIcon from '/home/dorado/workspace/personal-site/src/images/skillset/React.png'
+import PythonIcon from '/home/dorado/workspace/personal-site/src/images/skillset/python.png'
+import SQLIcon from '/home/dorado/workspace/personal-site/src/images/skillset/sql.png'
+import TailwindIcon from '/home/dorado/workspace/personal-site/src/images/skillset/tailwind.png'
+import DjangoIcon from '/home/dorado/workspace/personal-site/src/images/skillset/dj.png'
 
 export const Home = () =>{
     
@@ -114,15 +121,19 @@ const navigate = useNavigate()
 
 
 <br/>
-        <article title="this is my name" className=" bg-gray-900 h-80 p-10  bg-cover bg-center flex justify-center rounded-xl text-yellow-500">
-            
-            <div className="flex flex-col items-center">
+        <article title="this is my name" className=" bg-gray-900 p-10  bg-cover bg-center rounded-xl text-yellow-500">
+            <p className=" text-3xl mb-6 flex justify-center">MY SKILLSET </p>
+                <section className="flex justify-evenly ">
+                        <img src={ReactIcon} alt="React Icon" className="h-10"/>
+                        <img src={JSIcon} alt="JavaScript Icon" className="h-14"/>
+                        <img src={HTMLIcon} alt="HTML Icon" className="h-12 pt-1"/>
+                        <img src={CSSIcon} alt="CSS Icon" className="h-12"/>
+                        <img src={TailwindIcon} alt="Tailwind CSS Icon" className="h-8 pt-1"/>
+                        <img src={SQLIcon} alt="SQL Icon" className="h-12"/>
+                        <img src={PythonIcon} alt="Python Icon" className="h-12"/>
+                        <img src={DjangoIcon} alt="Django Icon" className="h-12"/>
 
-            <p className=" text-3xl mb-6 ">MY SKILLSET </p>
-            
-            {/* //! find & integrate icons <p className=" text-4xl "> JS, React, HTML, CSS, SQL, Python, Django </p> */}
-
-            </div>
+                </section>
 
             {/* <img className="absolute inset-0 object-cover" src="https://media.licdn.com/dms/image/C4D03AQFN94ndXIuFow/profile-displayphoto-shrink_400_400/0/1661618824653?e=1702512000&v=beta&t=NagxC9SaA-RWQgrliESWVczo7KLdbMJsjmNg_hDHgII" alt="pic of me"/> */}
 
