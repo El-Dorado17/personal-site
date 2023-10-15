@@ -75,8 +75,8 @@ const navigate = useNavigate()
             <div className="p-2">
                 <div>
                 <section className="flex justify-between ">
-                    <div className="w-1/3 ">
-                        <h1>Quest Keeper</h1>
+                    <div className="w-1/3">
+                        <h1 className="text-3xl text-center underline">Quest Keeper</h1>
                         <h3>Tech Used: JavaScript & React, JSON Server, HTML, Tailwind-CSS</h3>
                         <p>QK is a full CRUD application that allows users to track their video game progress.</p>
                         
@@ -91,7 +91,7 @@ const navigate = useNavigate()
                 <div>
                 <section className="flex justify-between ">
                 <div className="w-1/3">
-                        <h1>Study Other Languages (S.O.L.)</h1>
+                        <h1 className="text-3xl text-center underline">Study Other Languages (S.O.L.)</h1>
                         <h3>Tech Used: JavaScript, React, JSON Server, HTML, CSS</h3>
                         <p>SOL was my first project I made to show my knowledge of front-end tech. JSON Server handles  pb-6requests. Create ands Delete only, video, and deployed </p>
                     </div>
@@ -105,7 +105,7 @@ const navigate = useNavigate()
 
                 <section className="flex justify-between ">
                 <div className="w-1/3 ">
-                        <h1>Vacation Station</h1>
+                        <h1 className="text-3xl text-center underline">Vacation Station</h1>
                         <h3>Tech Used: JavaScript & React, Python & Django, SQLite, HTML & CSS</h3>
                         <p>Vacation Station is my first full-stack application with full CRUD functionality</p>
                         
