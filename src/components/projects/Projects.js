@@ -1,44 +1,64 @@
-//Component that will give a display & info abt my projects
-import pfp from '/home/dorado/workspace/personal-site/src/components/about/pfp.jpg'
-import example from '/home/dorado/workspace/personal-site/src/images/images.jpg'
 import React from "react"
 import { useState } from 'react'
 
-//? Images not displaying; reference:
-//! https://flowbite.com/docs/components/carousel/
+import QKAllUsers from '/home/dorado/workspace/personal-site/src/images/qk/all-users-qk.png'
+import QKForm from '/home/dorado/workspace/personal-site/src/images/qk/form-qk.png'
+import QKMyPage from '/home/dorado/workspace/personal-site/src/images/qk/my-page.png'
+import QKWelcome from '/home/dorado/workspace/personal-site/src/images/qk/qk welcome.png'
+import QKCode from '/home/dorado/workspace/personal-site/src/images/qk/qk-code.png'
+import QKRegister from '/home/dorado/workspace/personal-site/src/images/qk/register-qk.png'
+import QKSignIn from '/home/dorado/workspace/personal-site/src/images/qk/sign-in-qk.png'
 
-const images = [
-    {url: pfp},
-    {url:example}
-]
+import SOLCreate from '/home/dorado/workspace/personal-site/src/images/sol/create sol.png'
+import SOLFiltered from '/home/dorado/workspace/personal-site/src/images/sol/filtered sol.png'
+import SOLMain from '/home/dorado/workspace/personal-site/src/images/sol/mian sol.png'
+import SOLRegister from '/home/dorado/workspace/personal-site/src/images/sol/register sol.png'
+import SOLCode from '/home/dorado/workspace/personal-site/src/images/sol/sol code.png'
+import SOLStudent from '/home/dorado/workspace/personal-site/src/images/sol/student sol.png'
 
+// import from ''
+// import from ''
+// import from ''
+// import from ''
+// import from ''
+// import from ''
+// import from ''
 
 
 
 
 export function Projects() {
-
     const [currentIndex, setCurrentIndex] = useState(0)
+
+    const imagesQK = [
+        {url: QKAllUsers},
+        {url: QKCode},
+        {url: QKForm},
+        {url: QKMyPage},
+        {url: QKRegister},
+        {url: QKSignIn},
+        {url: QKWelcome}
+    ]
+    
 
     const prevSlide = () =>{
         const isFirstSlide = currentIndex === 0;
-        const newIndex = isFirstSlide ? images.length -1 : currentIndex -1
+        const newIndex = isFirstSlide ? imagesQK.length -1 : currentIndex -1
         setCurrentIndex(newIndex)
     }
 
     const nextSlide = () =>{
-        const isLastSlide = currentIndex === images.length -1
+        const isLastSlide = currentIndex === imagesQK.length -1
         const newIndex = isLastSlide ? 0 : currentIndex + 1
         setCurrentIndex(newIndex)
     }
-
 
 return(<>
     <br/> <br/> <br/> <br/> <br/>
 
     <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'> 
         
-        <div style={{backgroundImage:`url(${images[currentIndex].url})`}} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'>
+        <div style={{backgroundImage:`url(${imagesQK[currentIndex].url})`}} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'>
 
         </div>
 
