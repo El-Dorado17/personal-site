@@ -52,7 +52,7 @@ const navigate = useNavigate()
 
     return(<>
     <section className= " min-h-screen bg-cover bg-center bg-fixed p-10" style={{ backgroundImage: `url(${BlackNGold})` }} >
-        <br/> <br/> <br/> <br/> <br/>
+        <br/> <br/> 
         <article title="this is my name" className=" bg-gray-900 h-80 p-10  bg-cover bg-center flex items-center justify-center rounded-xl text-yellow-500">
             
             <div className="flex flex-col items-center">
@@ -67,7 +67,26 @@ const navigate = useNavigate()
 
         </article>
 
-        <br/>   <br/>   <br/>   <br/>   <br/>   <br/>   <br/>
+        <br/>
+        <article title="this is my name" className=" bg-gray-900 p-10  bg-cover bg-center rounded-xl text-yellow-500">
+            <p className=" text-3xl mb-6 flex justify-center">MY SKILLSET </p>
+                <section className="flex justify-evenly ">
+                        <img src={ReactIcon} alt="React Icon" className="h-10"/>
+                        <img src={JSIcon} alt="JavaScript Icon" className="h-14"/>
+                        <img src={HTMLIcon} alt="HTML Icon" className="h-12 pt-1"/>
+                        <img src={CSSIcon} alt="CSS Icon" className="h-12"/>
+                        <img src={TailwindIcon} alt="Tailwind CSS Icon" className="h-8 pt-1"/>
+                        <img src={SQLIcon} alt="SQL Icon" className="h-12"/>
+                        <img src={PythonIcon} alt="Python Icon" className="h-12"/>
+                        <img src={DjangoIcon} alt="Django Icon" className="h-12"/>
+
+                </section>
+
+            {/* <img className="absolute inset-0 object-cover" src="https://media.licdn.com/dms/image/C4D03AQFN94ndXIuFow/profile-displayphoto-shrink_400_400/0/1661618824653?e=1702512000&v=beta&t=NagxC9SaA-RWQgrliESWVczo7KLdbMJsjmNg_hDHgII" alt="pic of me"/> */}
+
+        </article>
+
+        <br/>  
 
         <article className="bg-gray-900  p-4 text-yellow-500" >
             <p className=" flex justify-center text-3xl pb-2">PROJECTS</p>
@@ -119,28 +138,8 @@ const navigate = useNavigate()
             </div>
         </article>
 
-
-<br/>
-        <article title="this is my name" className=" bg-gray-900 p-10  bg-cover bg-center rounded-xl text-yellow-500">
-            <p className=" text-3xl mb-6 flex justify-center">MY SKILLSET </p>
-                <section className="flex justify-evenly ">
-                        <img src={ReactIcon} alt="React Icon" className="h-10"/>
-                        <img src={JSIcon} alt="JavaScript Icon" className="h-14"/>
-                        <img src={HTMLIcon} alt="HTML Icon" className="h-12 pt-1"/>
-                        <img src={CSSIcon} alt="CSS Icon" className="h-12"/>
-                        <img src={TailwindIcon} alt="Tailwind CSS Icon" className="h-8 pt-1"/>
-                        <img src={SQLIcon} alt="SQL Icon" className="h-12"/>
-                        <img src={PythonIcon} alt="Python Icon" className="h-12"/>
-                        <img src={DjangoIcon} alt="Django Icon" className="h-12"/>
-
-                </section>
-
-            {/* <img className="absolute inset-0 object-cover" src="https://media.licdn.com/dms/image/C4D03AQFN94ndXIuFow/profile-displayphoto-shrink_400_400/0/1661618824653?e=1702512000&v=beta&t=NagxC9SaA-RWQgrliESWVczo7KLdbMJsjmNg_hDHgII" alt="pic of me"/> */}
-
-        </article>
-
-
         <br/>
+
         <article className="bg-gray-900 text-yellow-500 p-10 " >
             <p className="flex justify-center text-3xl pb-8">EXPERIENCE</p>
                 <div className="flex justify-evenly"> 
