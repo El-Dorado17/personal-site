@@ -13,6 +13,10 @@ import PythonIcon from '/home/dorado/workspace/personal-site/src/images/skillset
 import SQLIcon from '/home/dorado/workspace/personal-site/src/images/skillset/sql.png'
 import TailwindIcon from '/home/dorado/workspace/personal-site/src/images/skillset/tailwind.png'
 import DjangoIcon from '/home/dorado/workspace/personal-site/src/images/skillset/dj.png'
+import YouTubeIcon from '/home/dorado/workspace/personal-site/src/images/icon-youtube.png'
+import EMailIcon from '/home/dorado/workspace/personal-site/src/images/icon-email.webp'
+import PhoneIcon from '/home/dorado/workspace/personal-site/src/images/icon-phone.webp'
+import MapIcon from '/home/dorado/workspace/personal-site/src/images/icon-map.webp'
 
 export const Home = () =>{
     
@@ -45,32 +49,35 @@ const navigate = useNavigate()
     return(<>
     <section className= " min-h-screen bg-cover bg-center bg-fixed p-10" style={{ backgroundImage: `url(${BlackNGold})` }} >
         <br/> <br/> 
-        <article title="this is my name" className=" bg-gray-900 h-80 p-10  bg-cover bg-center flex items-center justify-center rounded-xl text-yellow-500">
+        <article title="this is my name" className=" bg-gray-700 p-10  bg-cover bg-center rounded-xl text-yellow-500">
             
-            <div className="flex flex-col items-center">
+            <div className="flex justify-center flex-col items-center">
 
             <p className=" text-6xl mb-6 ">Ely Dorado </p>
             
             <p className=" text-4xl ">Software Developer</p>
-
             </div>
-
-            {/* <img className="absolute inset-0 object-cover" src="https://media.licdn.com/dms/image/C4D03AQFN94ndXIuFow/profile-displayphoto-shrink_400_400/0/1661618824653?e=1702512000&v=beta&t=NagxC9SaA-RWQgrliESWVczo7KLdbMJsjmNg_hDHgII" alt="pic of me"/> */}
-
+            <section className="flex justify-evenly pt-8">
+                    <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer" className="flex items-center"> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 pb-2 mr-2"/> Ely Dorado </a>
+                    <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" className="flex items-center"> <img src={GitHubCat} alt="github cat" className="w-8 pb-2 mr-2"/> El-Dorado17 </a>
+                    <a href="mailto:2018dorado@gmail.com" className="text-blue-500 pb-2 flex items-center"> <img src={EMailIcon} alt='email icon' className="w-8 mr-2"/> 2018dorado@gmail.com</a>
+                    <a href="tel:+1234567890" className="pb-2 flex items-center"> <img src={PhoneIcon} alt='phone icon' className="w-8 mr-2"/> (615) 294-6390</a>
+                    <a href="https://www.google.com/maps/place/St.+Louis+Metropolitan+Area/@38.7560177,-91.597838,8z/data=!3m1!4b1!4m6!3m5!1s0x87df333ece73e09d:0xbae7aa3e7b366814!8m2!3d38.8196814!4d-90.4502368!16zL20vMDJ2M203?authuser=0&entry=ttu" target='_blank'  rel="noreferrer" className="pb-2 flex items-center"> <img src={MapIcon} alt='map icon' className="w-8 mr-2"/> Greater St. Louis Area</a>
+            </section>
         </article>
 
         <br/>
-        <article title="this is my name" className=" bg-gray-900 p-10  bg-cover bg-center rounded-xl text-yellow-500">
+        <article title="this is my name" className=" bg-gray-700 p-10  bg-cover bg-center rounded-xl text-yellow-500">
             <p className=" text-3xl mb-6 flex justify-center">MY SKILLSET </p>
                 <section className="flex justify-evenly ">
-                        <img src={ReactIcon} alt="React Icon" className="h-10"/>
-                        <img src={JSIcon} alt="JavaScript Icon" className="h-14"/>
-                        <img src={HTMLIcon} alt="HTML Icon" className="h-12 pt-1"/>
-                        <img src={CSSIcon} alt="CSS Icon" className="h-12"/>
-                        <img src={TailwindIcon} alt="Tailwind CSS Icon" className="h-8 pt-1"/>
-                        <img src={SQLIcon} alt="SQL Icon" className="h-12"/>
-                        <img src={PythonIcon} alt="Python Icon" className="h-12"/>
-                        <img src={DjangoIcon} alt="Django Icon" className="h-12"/>
+                        <img src={ReactIcon} title="React" alt="React Icon" className="h-10"/>
+                        <img src={JSIcon} title="JavaScript" alt="JavaScript Icon" className="h-14"/>
+                        <img src={HTMLIcon} title="Hyper-Text Markup Language" alt="HTML Icon" className="h-12 pt-1"/>
+                        <img src={CSSIcon} title="Cascading Style Sheets" alt="CSS Icon" className="h-12"/>
+                        <img src={TailwindIcon} title="Tailwind CSS Framework" alt="Tailwind CSS Icon" className="h-8 pt-1"/>
+                        <img src={SQLIcon} title="SQL" alt="SQL Icon" className="h-12"/>
+                        <img src={PythonIcon} title="Python" alt="Python Icon" className="h-12"/>
+                        <img src={DjangoIcon} title="Django" alt="Django Icon" className="h-12"/>
 
                 </section>
 
@@ -80,14 +87,14 @@ const navigate = useNavigate()
 
         <br/>  
 
-        <article className="bg-gray-900  p-4 text-yellow-500" >
+        <article className="bg-gray-700  p-4 text-yellow-500" >
             <p className=" flex justify-center text-3xl pb-2">PROJECTS</p>
 
             <div className="p-2">
                 <div>
                 <section className="flex justify-between ">
                     <div className="w-1/3">
-                        <a href='https://quest-keeper-6cymc.ondigitalocean.app/register' target="_blank" className="text-3xl flex justify-center underline">Quest Keeper</a>
+                        <a href='https://quest-keeper-6cymc.ondigitalocean.app/register' target="_blank" rel="noreferrer" className="text-3xl flex justify-center underline">Quest Keeper</a>
                         <h3>Tech Used: JavaScript & React, JSON Server, HTML, Tailwind-CSS</h3>
                         <p>QK is a full CRUD application that allows users to track their video game progress.</p>
                         
@@ -112,7 +119,7 @@ const navigate = useNavigate()
                     </div>
                 </section>
 
-                <p className="flex justify-end pb-6"> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'>Video Demo</a> </p>
+                <p className="flex justify-end pb-6"> <img src={YouTubeIcon} alt='YouTube icon' className="w-8" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link'>Video Demo</a> </p>
                 </div>
 
                 <section className="flex justify-between ">
@@ -133,7 +140,7 @@ const navigate = useNavigate()
 
         <br/>
 
-        <article className="bg-gray-900 text-yellow-500 p-10 " >
+        <article className="bg-gray-700 text-yellow-500 p-10 " >
             <p className="flex justify-center text-3xl pb-8">EXPERIENCE</p>
                 <div className="flex justify-evenly"> 
                     <section className="w-80"> 
@@ -176,19 +183,6 @@ const navigate = useNavigate()
                     </section>
                 </div>
         </article>
-
-        <br/>
-        <article className="bg-gray-900 text-yellow-500 p-10" >
-            <p className="flex justify-center text-3xl pb-8">CONTACT</p>
-                <section className="flex justify-around ">
-                    <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer"> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 pb-2"/> </a>
-                    <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" > <img src={GitHubCat} alt="github cat" className="w-8 pb-2"/> </a>
-                    <a href="mailto:2018dorado@gmail.com" className="text-blue-600 pb-2">2018dorado@gmail.com</a>
-                    <a href="tel:+1234567890" className="pb-2">(615) 294-6390</a>
-
-            </section>
-        </article>
-
 
         {document.addEventListener('keydown', keyHandler, false)}
     </section>
