@@ -49,45 +49,45 @@ const navigate = useNavigate()
 
 
     return(<>
-    <section className= " min-h-screen bg-cover bg-center bg-fixed p-10" style={{ backgroundImage: `url(${BlackNGold})` }} >
-        <br/> <br/> 
-        <article className=" bg-gray-700 p-10  bg-cover bg-center rounded-xl text-yellow-500">
-            
-            <div className="flex justify-center flex-col items-center">
 
-            <p className=" text-6xl mb-6 pt-2">Ely Dorado </p>
-            
-            <p className=" text-4xl ">Software Developer</p>
-            </div>
-            <section className="flex justify-evenly pt-8">
-                    <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer" className="flex items-center"> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 pb-2 mr-2"/> Ely Dorado </a>
-                    <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" className="flex items-center"> <img src={GitHubCat} alt="github cat" className="w-8 pb-2 mr-2"/> El-Dorado17 </a>
-                    <a href="mailto:2018dorado@gmail.com" className="text-blue-500 pb-2 flex items-center"> <img src={EMailIcon} alt='email icon' className="w-8 mr-2"/> 2018dorado@gmail.com</a>
-                    <a href="tel:+1234567890" className="pb-2 flex items-center"> <img src={PhoneIcon} alt='phone icon' className="w-8 mr-2"/> (615) 294-6390</a>
-                    <a href="https://www.google.com/maps/place/St.+Louis+Metropolitan+Area/@38.7560177,-91.597838,8z/data=!3m1!4b1!4m6!3m5!1s0x87df333ece73e09d:0xbae7aa3e7b366814!8m2!3d38.8196814!4d-90.4502368!16zL20vMDJ2M203?authuser=0&entry=ttu" target='_blank'  rel="noreferrer" className="pb-2 flex items-center"> <img src={MapIcon} alt='map icon' className="w-8 mr-2"/> Greater St. Louis Area</a>
+    <section className= " min-h-screen bg-cover bg-center bg-fixed p-10" style={{ backgroundImage: `url(${BlackNGold})` }} >
+
+        <br/> <br/> 
+
+            <article className=" bg-gray-700 p-10  bg-cover bg-center rounded-xl text-yellow-500">
+                <div className="flex justify-center flex-col items-center">
+                    <p className=" text-6xl mb-6 pt-2">Ely Dorado </p>            
+                    <p className=" text-4xl ">Software Developer</p>
+                </div>
+
+                <section className="flex justify-evenly pt-8">
+                        <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer" className="flex items-center"> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 pb-2 mr-2"/> Ely Dorado </a>
+                        <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" className="flex items-center"> <img src={GitHubCat} alt="github cat" className="w-8 pb-2 mr-2"/> El-Dorado17 </a>
+                        <a href="mailto:2018dorado@gmail.com" className="text-blue-500 pb-2 flex items-center"> <img src={EMailIcon} alt='email icon' className="w-8 mr-2"/> 2018dorado@gmail.com</a>
+                        <a href="tel:+1234567890" className="pb-2 flex items-center"> <img src={PhoneIcon} alt='phone icon' className="w-8 mr-2"/> (615) 294-6390</a>
+                        <a href="https://www.google.com/maps/place/St.+Louis+Metropolitan+Area/@38.7560177,-91.597838,8z/data=!3m1!4b1!4m6!3m5!1s0x87df333ece73e09d:0xbae7aa3e7b366814!8m2!3d38.8196814!4d-90.4502368!16zL20vMDJ2M203?authuser=0&entry=ttu" target='_blank'  rel="noreferrer" className="pb-2 flex items-center"> <img src={MapIcon} alt='map icon' className="w-8 mr-2"/> Greater St. Louis Area</a>
+                </section>
+            </article>
+
+        <br/>
+
+        <article className=" bg-gray-700 p-10  bg-cover bg-center rounded-xl text-yellow-500">
+            <p className=" text-3xl mb-6 flex justify-center">MY SKILLSET </p>
+            <section className="flex justify-evenly ">
+                    <img src={ReactIcon} title="React" alt="React Icon" className="h-10"/>
+                    <img src={JSIcon} title="JavaScript" alt="JavaScript Icon" className="h-14"/>
+                    <img src={HTMLIcon} title="Hyper-Text Markup Language" alt="HTML Icon" className="h-12 pt-1"/>
+                    <img src={CSSIcon} title="Cascading Style Sheets" alt="CSS Icon" className="h-12"/>
+                    <img src={TailwindIcon} title="Tailwind CSS Framework" alt="Tailwind CSS Icon" className="h-8 pt-1"/>
+                    <img src={SQLIcon} title="SQL" alt="SQL Icon" className="h-12"/>
+                    <img src={PythonIcon} title="Python" alt="Python Icon" className="h-12"/>
+                    <img src={DjangoIcon} title="Django" alt="Django Icon" className="h-12"/>
             </section>
         </article>
 
-        <br/>
-        <article className=" bg-gray-700 p-10  bg-cover bg-center rounded-xl text-yellow-500">
-            <p className=" text-3xl mb-6 flex justify-center">MY SKILLSET </p>
-                <section className="flex justify-evenly ">
-                        <img src={ReactIcon} title="React" alt="React Icon" className="h-10"/>
-                        <img src={JSIcon} title="JavaScript" alt="JavaScript Icon" className="h-14"/>
-                        <img src={HTMLIcon} title="Hyper-Text Markup Language" alt="HTML Icon" className="h-12 pt-1"/>
-                        <img src={CSSIcon} title="Cascading Style Sheets" alt="CSS Icon" className="h-12"/>
-                        <img src={TailwindIcon} title="Tailwind CSS Framework" alt="Tailwind CSS Icon" className="h-8 pt-1"/>
-                        <img src={SQLIcon} title="SQL" alt="SQL Icon" className="h-12"/>
-                        <img src={PythonIcon} title="Python" alt="Python Icon" className="h-12"/>
-                        <img src={DjangoIcon} title="Django" alt="Django Icon" className="h-12"/>
-
-                </section>
-
-            {/* <img className="absolute inset-0 object-cover" src="https://media.licdn.com/dms/image/C4D03AQFN94ndXIuFow/profile-displayphoto-shrink_400_400/0/1661618824653?e=1702512000&v=beta&t=NagxC9SaA-RWQgrliESWVczo7KLdbMJsjmNg_hDHgII" alt="pic of me"/> */}
-
-        </article>
-
         <br/>  
+
+
 
         <article className="bg-gray-700  p-4 text-yellow-500 rounded-xl" >
             <p className=" flex justify-center text-3xl pb-2">PROJECTS</p>
@@ -96,7 +96,7 @@ const navigate = useNavigate()
                 <div>
                 <section className="flex justify-between ">
                     <div className="w-1/3">
-                        <a href='https://quest-keeper-6cymc.ondigitalocean.app/register' target="_blank" rel="noreferrer" className="text-3xl flex justify-center underline">Quest Keeper</a>
+                        <a  target="_blank" rel="noreferrer" className="text-3xl flex justify-center underline">Quest Keeper</a>
                         <h3>Tech Used: JavaScript & React, JSON Server, HTML, Tailwind-CSS</h3>
                         <p>QK is a full CRUD application that allows users to track their video game progress.</p>
                         
@@ -107,9 +107,9 @@ const navigate = useNavigate()
                 </section>
                 
                 <section className="flex justify-end pb-6"> 
-                    <img src={YouTubeIcon} alt='YouTube icon' className="w-8 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link'>Video Demo</a> 
-                    <img src={BlackGitHubCat} alt='YouTube icon' className="w-8 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link'>Link to code</a>
-                    <img src={LinkIcon} alt='YouTube icon' className="w-8 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link'>Link to Deplopyed proj</a>
+                    <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a> 
+                    <img src={BlackGitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
+                    <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper-6cymc.ondigitalocean.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Deplopyed Project</a>
                 </section>
                 </div>
 
@@ -126,8 +126,9 @@ const navigate = useNavigate()
                 </section>
 
                 <section className="flex justify-end pb-6"> 
-                    <img src={YouTubeIcon} alt='YouTube icon' className="w-8 mr-2" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link'>Video Demo</a> 
-                    <img src={YouTubeIcon} alt='YouTube icon' className="w-8 mr-2" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link'>Lnik to code</a> 
+                    <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a> 
+                    <img src={BlackGitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
+                    <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper-6cymc.ondigitalocean.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Deplopyed Project</a>
                 </section>
                 </div>
 
