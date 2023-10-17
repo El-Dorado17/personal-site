@@ -40,14 +40,6 @@ const navigate = useNavigate()
     
     };
 
-//      // Add the event listener to document
-//     document.addEventListener('keydown', keyHandler, false);
-
-//      // Remove the event listener when the component unmounts
-//     return () => {
-//         document.removeEventListener('keydown', keyHandler, false);
-//     };
-// }, [navigate]);
 
 
     return(<>
@@ -95,7 +87,7 @@ const navigate = useNavigate()
                 <div>
                 <section className="flex justify-between ">
                     <div className="w-1/3">
-                        <h1 className="text-3xl text-center underline">Quest Keeper</h1>
+                        <a href='https://quest-keeper-6cymc.ondigitalocean.app/register' target="_blank" className="text-3xl flex justify-center underline">Quest Keeper</a>
                         <h3>Tech Used: JavaScript & React, JSON Server, HTML, Tailwind-CSS</h3>
                         <p>QK is a full CRUD application that allows users to track their video game progress.</p>
                         
@@ -104,13 +96,14 @@ const navigate = useNavigate()
                         <img src={WelcomeQK} alt="pic of the proj"/>
                     </div>
                 </section>
+                
                 <p className="flex justify-end pb-6"> *links to code, video, and deployed*</p>
                 </div>
 
                 <div>
                 <section className="flex justify-between ">
                 <div className="w-1/3">
-                        <h1 className="text-3xl text-center underline">Study Other Languages (S.O.L.)</h1>
+                        <h1  className="text-3xl text-center underline">Study Other Languages (S.O.L.)</h1>
                         <h3>Tech Used: JavaScript, React, JSON Server, HTML, CSS</h3>
                         <p>SOL was my first project I made to show my knowledge of front-end tech. JSON Server handles  pb-6requests. Create ands Delete only, video, and deployed </p>
                     </div>
@@ -119,7 +112,7 @@ const navigate = useNavigate()
                     </div>
                 </section>
 
-                <p className="flex justify-end pb-6"> *links to code, video, and deployed*</p>
+                <p className="flex justify-end pb-6"> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'>Video Demo</a> </p>
                 </div>
 
                 <section className="flex justify-between ">
