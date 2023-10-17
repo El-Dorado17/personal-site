@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import GitHubCat from '/home/dorado/workspace/personal-site/src/images/github-mark-white.png'
+import BlackGitHubCat from '/home/dorado/workspace/personal-site/src/images/github-mark-black.png'
 import LinkedInSquare from '/home/dorado/workspace/personal-site/src/images/linked-in-square.png'
 import BlackNGold from '/home/dorado/workspace/personal-site/src/images/black-n-gold.jpg'
 import WelcomeQK from '/home/dorado/workspace/personal-site/src/images/qk/qk welcome.png'
@@ -17,6 +18,7 @@ import YouTubeIcon from '/home/dorado/workspace/personal-site/src/images/icon-yo
 import EMailIcon from '/home/dorado/workspace/personal-site/src/images/icon-email.webp'
 import PhoneIcon from '/home/dorado/workspace/personal-site/src/images/icon-phone.webp'
 import MapIcon from '/home/dorado/workspace/personal-site/src/images/icon-map.webp'
+import LinkIcon from '/home/dorado/workspace/personal-site/src/images/icon-link.png'
 
 export const Home = () =>{
     
@@ -104,7 +106,11 @@ const navigate = useNavigate()
                     </div>
                 </section>
                 
-                <p className="flex justify-end pb-6"> *links to code, video, and deployed*</p>
+                <section className="flex justify-end pb-6"> 
+                    <img src={YouTubeIcon} alt='YouTube icon' className="w-8 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link'>Video Demo</a> 
+                    <img src={BlackGitHubCat} alt='YouTube icon' className="w-8 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link'>Link to code</a>
+                    <img src={LinkIcon} alt='YouTube icon' className="w-8 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link'>Link to Deplopyed proj</a>
+                </section>
                 </div>
 
                 <div>
@@ -119,7 +125,10 @@ const navigate = useNavigate()
                     </div>
                 </section>
 
-                <p className="flex justify-end pb-6"> <img src={YouTubeIcon} alt='YouTube icon' className="w-8" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link'>Video Demo</a> </p>
+                <section className="flex justify-end pb-6"> 
+                    <img src={YouTubeIcon} alt='YouTube icon' className="w-8 mr-2" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link'>Video Demo</a> 
+                    <img src={YouTubeIcon} alt='YouTube icon' className="w-8 mr-2" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link'>Lnik to code</a> 
+                </section>
                 </div>
 
                 <section className="flex justify-between ">
