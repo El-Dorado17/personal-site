@@ -69,7 +69,7 @@ const navigate = useNavigate()
                 </section>
             </article>
 
-        <br/>
+        <br/> <br/>
 
         <article className=" bg-gray-700 p-10  bg-cover bg-center rounded-xl text-yellow-500">
             <p className=" text-3xl mb-6 flex justify-center">MY SKILLSET </p>
@@ -85,7 +85,7 @@ const navigate = useNavigate()
             </section>
         </article>
 
-        <br/>  
+        <br/>  <br/>
 
 
 
@@ -95,11 +95,16 @@ const navigate = useNavigate()
             <div className="p-2">
                 <div>
                 <section className="flex justify-between ">
-                    <div className="w-1/3">
-                        <a  target="_blank" rel="noreferrer" className="text-3xl flex justify-center underline">Quest Keeper</a>
-                        <h3>Tech Used: JavaScript & React, JSON Server, HTML, Tailwind-CSS</h3>
+                    <div className="w-1/3 mr-2">
+                        <h1 className="text-3xl flex justify-center underline font-semibold">Quest Keeper</h1>
+                        <p className="text-xl font-semibold">Tech Used</p>
+                        <p className="">JavaScript, React, JSON Server, HTML, & Tailwind-CSS</p>
+                        <p>★ Favorite Feature: Tailwind CSS Integration!</p>
                         <br/>
-                        <p>QK is a full CRUD application that allows users to track their video game progress.</p>
+                        <p className="text-xl font-semibold">Description</p>
+                        <p className="mt-2">» QK is a full CRUD application I made for my friends and I that allows users to track their video game progress.</p>
+                        <p className="mt-2">» Users can create a post with information about a video game they'd like to track (platform, title, notes, etc.), see other user posts, as well as edit or delete their own. </p>
+                        <p className="mt-2">» Check out the video for a detailed demonstration!</p>
                         
                     </div>
                     <div className="border-solid border-2 border-yellow-500 w-4/6">
@@ -107,90 +112,103 @@ const navigate = useNavigate()
                     </div>
                 </section>
                 
-                <section className="flex justify-end pb-6"> 
-                    <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a> 
-                    <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
-                    <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper-6cymc.ondigitalocean.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Deplopyed Project</a>
+                <section className="flex justify-end pb-6 mt-2"> 
+                    {/* <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a>  */}
+                    <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/quest-keeper' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
+                    <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper-6cymc.ondigitalocean.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Deployed Project</a>
                 </section>
                 </div>
 
                 <div>
                 <section className="flex justify-between ">
-                <div className="w-1/3">
-                        <h1  className="text-3xl text-center underline">Study Other Languages (S.O.L.)</h1>
-                        <h3>Tech Used: JavaScript, React, JSON Server, HTML, CSS</h3>
+                <div className="w-1/3 mr-2">
+                        <h1  className="text-3xl text-center underline font-semibold">Study Other Languages (S.O.L.)</h1>
+                        <p className="text-xl font-semibold">Tech Used</p>
+                        <p className="">JavaScript, React, JSON Server, HTML, CSS</p>
+                        <p>★ Favorite Feature: Background video & CSS Flip-Card implementation!</p>
                         <br/>
-                        <p>SOL was my first project I made to show my knowledge of front-end tech. JSON Server handles  pb-6requests. Create ands Delete only, video, and deployed </p>
+                        <p className="mt-2">» QK is a full CRUD application I made for my friends and I that allows users to track their video game progress.</p>
                     </div>
                     <div className="border-solid border-2   border-yellow-500 w-4/6">
                         <img src={WelcomeSOL} alt="pic of the proj"/>
                     </div>
                 </section>
 
-                <section className="flex justify-end pb-6"> 
+                <section className="flex justify-end pb-6 mt-2"> 
                     <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a> 
-                    <img src={BlackGitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
-                    <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper-6cymc.ondigitalocean.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Deplopyed Project</a>
+                    <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/study-other-languages' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
                 </section>
                 </div>
+                </div>
 
-                <section className="flex justify-between ">
-                <div className="w-1/3 ">
-                        <h1 className="text-3xl text-center underline">Vacation Station</h1>
-                        <h3>Tech Used: JavaScript & React, Python & Django, SQLite, HTML & CSS</h3>
-                        <p>Vacation Station is my first full-stack application with full CRUD functionality</p>
-                        
-                    </div>
-                    <div className="border-solid border-2 border-gray-900">
-                        <img src="" alt="pic of the proj"/>
-                        *pic goes here*
-                    </div>
-                </section>
-                <p className="flex justify-end pb-6"> *links to code, video, and deployed*</p>
-            </div>
+                {/* <div>
+                    <section className="flex justify-between ">
+                        <div className="w-1/3 mr-2">
+                            <a  target="_blank" rel="noreferrer" className="text-3xl flex justify-center underline font-semibold">Vacation Station</a>
+                            <p className="text-xl font-semibold">Tech Used</p>
+                            <p className="">JavaScript, React, Python, Django, HTML, CSS</p>
+
+                            <br/>
+
+                            <p className="text-xl font-semibold">Description</p>
+                            <p className="mt-2">» text</p>
+                            <p className="mt-2">» text</p>
+                            <p className="mt-2">» text</p>    
+                        </div>
+                        <div className="border-solid border-2 border-yellow-500 w-4/6">
+                            <img src={WelcomeQK} alt="pic of the proj"/>
+                        </div>
+                    </section>
+
+                    <section className="flex justify-end pb-6 mt-2"> 
+                        <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a> 
+                        <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/quest-keeper' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
+                        <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper-6cymc.ondigitalocean.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Deployed Project</a>
+                    </section>
+                </div> */}
         </article>
 
-        <br/>
+        <br/> <br/>
 
         <article className="bg-gray-700 text-yellow-500 p-10 rounded-xl" >
             <p className="flex justify-center text-3xl pb-8">EXPERIENCE</p>
                 <div className="flex justify-evenly"> 
                 <section className="w-80 "> 
                         <div>
-                            <h1>Nashville Software School</h1>
-                            <h2>Junior Developer</h2>
-                            <h4>January 2023 - June 2023</h4>
+                            <h1 className="text-xl font-semibold">Nashville Software School</h1>
+                            <h2 className="text-l font-semibold">Junior Developer</h2>
+                            <h4 >January 2023 - June 2023</h4>
                             <br/>
                             <ul>
-                                <li>‣ Full-time, six month software development bootcamp focusing on JavaScript/React & Python/Django development fundamentals and problem solving</li>
-                                <li>‣ Created single & multi-page applications</li>
-                                <li>‣ Project management/tracking with GitHub project boards and issue tracking source code/version control with Git/GitHub</li>
-                                <li>‣ Solution Design: white-boarding & wireframes </li>
-                                <li>‣ Created RESTful API's with Django REST framework </li>
-                                <li>‣ Retrieved and stored database information with SQLite </li>
+                                <li  className="mt-2">‣ Full-time, six month software development bootcamp focusing on JavaScript/React & Python/Django development fundamentals and problem solving</li>
+                                <li  className="mt-2">‣ Created single & multi-page applications</li>
+                                <li  className="mt-2">‣ Project management/tracking with GitHub project boards and issue tracking source code/version control with Git/GitHub</li>
+                                <li  className="mt-2">‣ Solution Design: white-boarding & wireframes </li>
+                                <li  className="mt-2">‣ Created RESTful API's with Django REST framework </li>
+                                <li  className="mt-2">‣ Retrieved and stored database information with SQLite </li>
                             </ul>
                         </div>
                     </section>
 
                     <section className="w-80"> 
                         <div> 
-                            <h1>Dal-Tile Corporation</h1>
-                            <h2>Operator & Technician</h2>
+                            <h1 className="text-xl font-semibold">Dal-Tile Corporation</h1>
+                            <h2 className="text-l font-semibold">Operator & Technician</h2>
                             <h4>September 2021 - December 2022</h4>
                             <br/>
                             <ul>
 
-                                <p>OPERATOR</p>
-                                <li>‣ Set new production record among all 4 shifts within four months of start date </li>
-                                <li>‣ Maintained machinery as needed for optimal production rate </li>
-                                <li>‣ Checked finished products for correct labeling, presentation, and quantities </li>
+                                <p className="text-l font-semibold">OPERATOR</p>
+                                <li  className="mt-2">‣ Set new production record among all 4 shifts within four months of start date </li>
+                                <li  className="mt-2">‣ Maintained machinery as needed for optimal production rate </li>
+                                <li  className="mt-2">‣ Checked finished products for correct labeling, presentation, and quantities </li>
 
                                 <br/>
 
-                                <p>TECHNICIAN</p>
-                                <li>‣ Operated front-end loader to keep raw material ready for production </li>
-                                <li>‣ Tested slip & finished powder hourly to ensure Q.C. Standard satisfaction </li>
-                                <li>‣ Shut down Ball-Mill and Spray-Dryer as needed for cleaning, mechanical-assessment, and routine maintenence</li>
+                                <p className="text-l font-semibold">TECHNICIAN</p>
+                                <li  className="mt-2">‣ Operated front-end loader to keep raw material ready for production </li>
+                                <li  className="mt-2">‣ Tested slip & finished powder hourly to ensure Q.C. Standard satisfaction </li>
+                                <li  className="mt-2">‣ Shut down Ball-Mill and Spray-Dryer as needed for cleaning, mechanical-assessment, and routine maintenence</li>
 
                             </ul>
                         

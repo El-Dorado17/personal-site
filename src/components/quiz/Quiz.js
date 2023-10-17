@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react" //importing from the react library
+// import { useEffect, useState } from "react" //importing from the react library
 import Galaxy from '/home/dorado/workspace/personal-site/src/images/gold-galaxy.jpg'
 
 
@@ -14,7 +14,7 @@ export function Quiz(params) {
             <article className="bg-cover bg-center min-h-screen" style={{ backgroundImage: `url(${Galaxy})`}}>
                     <br/> <br/>
                 <div className="">
-                    <br/> <p className="text-gray-100">blah blah</p>
+                    <br/> <p className="text-gray-100">You found the secret page! Too bad there's nothing here right now, but check back later!</p>
                 </div>
             </article>
         </>
