@@ -62,7 +62,7 @@ const navigate = useNavigate()
 
                 <section className="flex justify-evenly pt-8">
                         <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer" className="flex items-center"> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 pb-2 mr-2"/> Ely Dorado </a>
-                        <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" className="flex items-center"> <img src={GitHubCat} alt="github cat" className="w-8 pb-2 mr-2"/> El-Dorado17 </a>
+                        <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" className="flex items-center"> <img src={BlackGitHubCat} alt="github cat" className="w-8 pb-2 mr-2"/> El-Dorado17 </a>
                         <a href="mailto:2018dorado@gmail.com" className="text-blue-500 pb-2 flex items-center"> <img src={EMailIcon} alt='email icon' className="w-8 mr-2"/> 2018dorado@gmail.com</a>
                         <a href="tel:+1234567890" className="pb-2 flex items-center"> <img src={PhoneIcon} alt='phone icon' className="w-8 mr-2"/> (615) 294-6390</a>
                         <a href="https://www.google.com/maps/place/St.+Louis+Metropolitan+Area/@38.7560177,-91.597838,8z/data=!3m1!4b1!4m6!3m5!1s0x87df333ece73e09d:0xbae7aa3e7b366814!8m2!3d38.8196814!4d-90.4502368!16zL20vMDJ2M203?authuser=0&entry=ttu" target='_blank'  rel="noreferrer" className="pb-2 flex items-center"> <img src={MapIcon} alt='map icon' className="w-8 mr-2"/> Greater St. Louis Area</a>
@@ -98,6 +98,7 @@ const navigate = useNavigate()
                     <div className="w-1/3">
                         <a  target="_blank" rel="noreferrer" className="text-3xl flex justify-center underline">Quest Keeper</a>
                         <h3>Tech Used: JavaScript & React, JSON Server, HTML, Tailwind-CSS</h3>
+                        <br/>
                         <p>QK is a full CRUD application that allows users to track their video game progress.</p>
                         
                     </div>
@@ -108,7 +109,7 @@ const navigate = useNavigate()
                 
                 <section className="flex justify-end pb-6"> 
                     <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a> 
-                    <img src={BlackGitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
+                    <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
                     <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper-6cymc.ondigitalocean.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Deplopyed Project</a>
                 </section>
                 </div>
@@ -118,6 +119,7 @@ const navigate = useNavigate()
                 <div className="w-1/3">
                         <h1  className="text-3xl text-center underline">Study Other Languages (S.O.L.)</h1>
                         <h3>Tech Used: JavaScript, React, JSON Server, HTML, CSS</h3>
+                        <br/>
                         <p>SOL was my first project I made to show my knowledge of front-end tech. JSON Server handles  pb-6requests. Create ands Delete only, video, and deployed </p>
                     </div>
                     <div className="border-solid border-2   border-yellow-500 w-4/6">
@@ -153,11 +155,12 @@ const navigate = useNavigate()
         <article className="bg-gray-700 text-yellow-500 p-10 rounded-xl" >
             <p className="flex justify-center text-3xl pb-8">EXPERIENCE</p>
                 <div className="flex justify-evenly"> 
-                <section className="w-80"> 
+                <section className="w-80 "> 
                         <div>
                             <h1>Nashville Software School</h1>
                             <h2>Junior Developer</h2>
                             <h4>January 2023 - June 2023</h4>
+                            <br/>
                             <ul>
                                 <li>‣ Full-time, six month software development bootcamp focusing on JavaScript/React & Python/Django development fundamentals and problem solving</li>
                                 <li>‣ Created single & multi-page applications</li>
@@ -174,6 +177,7 @@ const navigate = useNavigate()
                             <h1>Dal-Tile Corporation</h1>
                             <h2>Operator & Technician</h2>
                             <h4>September 2021 - December 2022</h4>
+                            <br/>
                             <ul>
 
                                 <p>OPERATOR</p>
@@ -181,10 +185,12 @@ const navigate = useNavigate()
                                 <li>‣ Maintained machinery as needed for optimal production rate </li>
                                 <li>‣ Checked finished products for correct labeling, presentation, and quantities </li>
 
+                                <br/>
+
                                 <p>TECHNICIAN</p>
-                                <li>‣ Operated front-end-loader to keep raw material ready for production </li>
-                                <li>‣ Frequently tested slip & finished powder to verify product satisfiesQ.C. Standards </li>
-                                <li>‣ Stopped and restarted Ball-Mill & Spray-Dryer for cleaning, mechanical-assessment, and routine maintenence</li>
+                                <li>‣ Operated front-end loader to keep raw material ready for production </li>
+                                <li>‣ Tested slip & finished powder hourly to ensure Q.C. Standard satisfaction </li>
+                                <li>‣ Shut down Ball-Mill and Spray-Dryer as needed for cleaning, mechanical-assessment, and routine maintenence</li>
 
                             </ul>
                         
