@@ -49,11 +49,11 @@ const navigate = useNavigate()
     return(<>
     <section className= " min-h-screen bg-cover bg-center bg-fixed p-10" style={{ backgroundImage: `url(${BlackNGold})` }} >
         <br/> <br/> 
-        <article title="this is my name" className=" bg-gray-700 p-10  bg-cover bg-center rounded-xl text-yellow-500">
+        <article className=" bg-gray-700 p-10  bg-cover bg-center rounded-xl text-yellow-500">
             
             <div className="flex justify-center flex-col items-center">
 
-            <p className=" text-6xl mb-6 ">Ely Dorado </p>
+            <p className=" text-6xl mb-6 pt-2">Ely Dorado </p>
             
             <p className=" text-4xl ">Software Developer</p>
             </div>
@@ -67,7 +67,7 @@ const navigate = useNavigate()
         </article>
 
         <br/>
-        <article title="this is my name" className=" bg-gray-700 p-10  bg-cover bg-center rounded-xl text-yellow-500">
+        <article className=" bg-gray-700 p-10  bg-cover bg-center rounded-xl text-yellow-500">
             <p className=" text-3xl mb-6 flex justify-center">MY SKILLSET </p>
                 <section className="flex justify-evenly ">
                         <img src={ReactIcon} title="React" alt="React Icon" className="h-10"/>
@@ -87,7 +87,7 @@ const navigate = useNavigate()
 
         <br/>  
 
-        <article className="bg-gray-700  p-4 text-yellow-500" >
+        <article className="bg-gray-700  p-4 text-yellow-500 rounded-xl" >
             <p className=" flex justify-center text-3xl pb-2">PROJECTS</p>
 
             <div className="p-2">
@@ -140,9 +140,25 @@ const navigate = useNavigate()
 
         <br/>
 
-        <article className="bg-gray-700 text-yellow-500 p-10 " >
+        <article className="bg-gray-700 text-yellow-500 p-10 rounded-xl" >
             <p className="flex justify-center text-3xl pb-8">EXPERIENCE</p>
                 <div className="flex justify-evenly"> 
+                <section className="w-80"> 
+                        <div>
+                            <h1>Nashville Software School</h1>
+                            <h2>Junior Developer</h2>
+                            <h4>January 2023 - June 2023</h4>
+                            <ul>
+                                <li>‣ Full-time, six month software development bootcamp focusing on JavaScript/React & Python/Django development fundamentals and problem solving</li>
+                                <li>‣ Created single & multi-page applications</li>
+                                <li>‣ Project management/tracking with GitHub project boards and issue tracking source code/version control with Git/GitHub</li>
+                                <li>‣ Solution Design: white-boarding & wireframes </li>
+                                <li>‣ Created RESTful API's with Django REST framework </li>
+                                <li>‣ Retrieved and stored database information with SQLite </li>
+                            </ul>
+                        </div>
+                    </section>
+
                     <section className="w-80"> 
                         <div> 
                             <h1>Dal-Tile Corporation</h1>
@@ -162,23 +178,6 @@ const navigate = useNavigate()
 
                             </ul>
                         
-                        </div>
-                    </section>
-
-                    <br/>
-
-                    <section className="w-80"> 
-                        <div>
-                            <h1>Irwin Painting Company</h1>
-                            <h2>Estimator</h2>
-                            <h4>November 2020 - August 2021</h4>
-                            <ul>
-                                <li>‣ Networked with General Contractors to help finalize bidding prices via email, phone, and in-person meetings </li>
-                                <li>‣ Analyzed architectural plans using estimating software to provide accurate accounts of square footages for paint, equipment, labor costs, and other material</li>
-                                <li>‣ Reviewed all estimatied quantities with company president;  preventing miscommunications & ensuring accurate pricing </li>
-                                <li>‣ Successful contracts ($80,000 to $218,000) include: NSCC, MTSU, & Vanderbilt University </li>
-
-                            </ul>
                         </div>
                     </section>
                 </div>
