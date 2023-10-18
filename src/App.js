@@ -13,12 +13,12 @@ This is also the module that the browser is reading directly/first
 
 import { ApplicationViews } from "./components/views/ApplicationViews.js";
 import "./App.css"
-import { NavBar } from "./components/nav/NavBar.js";
+//import { NavBar } from "./components/nav/NavBar.js";
 
 
 export const App = () => (
   <>
-    <NavBar/>
+    {/* <NavBar/> */}
     <ApplicationViews />
   </>
 )
