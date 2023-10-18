@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 import GitHubCat from '/home/dorado/workspace/personal-site/src/images/github-mark-white.png'
 import BlackGitHubCat from '/home/dorado/workspace/personal-site/src/images/github-mark-black.png'
 import LinkedInSquare from '/home/dorado/workspace/personal-site/src/images/linked-in-square.png'
@@ -22,7 +22,7 @@ import LinkIcon from '/home/dorado/workspace/personal-site/src/images/icon-link.
 
 export const Home = () =>{
     
-const navigate = useNavigate()
+//const navigate = useNavigate()
 
     var pattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight'];
     var current = 0;
@@ -41,7 +41,8 @@ const navigate = useNavigate()
         // If complete, alert and reset
         if (pattern.length === current) {
             current = 0;
-            navigate("/Quiz")
+            alert('Now tracking this computers location...')
+            alert('Just kidding! Check back at a later time :)')
         }
     
     };
@@ -61,11 +62,11 @@ const navigate = useNavigate()
                 </div>
 
                 <section className="flex justify-evenly pt-8">
-                        <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer" className="flex items-center"> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 pb-2 mr-2"/> Ely Dorado </a>
-                        <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" className="flex items-center"> <img src={BlackGitHubCat} alt="github cat" className="w-8 pb-2 mr-2"/> El-Dorado17 </a>
-                        <a href="mailto:2018dorado@gmail.com" className="text-blue-500 pb-2 flex items-center"> <img src={EMailIcon} alt='email icon' className="w-8 mr-2"/> 2018dorado@gmail.com</a>
-                        <a href="tel:+1234567890" className="pb-2 flex items-center"> <img src={PhoneIcon} alt='phone icon' className="w-8 mr-2"/> (615) 294-6390</a>
-                        <a href="https://www.google.com/maps/place/St.+Louis+Metropolitan+Area/@38.7560177,-91.597838,8z/data=!3m1!4b1!4m6!3m5!1s0x87df333ece73e09d:0xbae7aa3e7b366814!8m2!3d38.8196814!4d-90.4502368!16zL20vMDJ2M203?authuser=0&entry=ttu" target='_blank'  rel="noreferrer" className="pb-2 flex items-center"> <img src={MapIcon} alt='map icon' className="w-8 mr-2"/> Greater St. Louis Area</a>
+                        <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer" className="flex items-center" title='Connect with me on Linked-In'> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 pb-2 mr-2" /> Ely Dorado </a>
+                        <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" className="flex items-center" title='Frequently coding on GitHub!'> <img src={BlackGitHubCat} alt="github cat" className="w-8 pb-2 mr-2"/> El-Dorado17 </a>
+                        <a href="mailto:2018dorado@gmail.com" className="text-blue-500 pb-2 flex items-center" title='Drop me a line!'> <img src={EMailIcon} alt='email icon' className="w-8 mr-2"/> 2018dorado@gmail.com</a>
+                        <a href="tel:+1234567890" className="pb-2 flex items-center" title='Reach out! (I still play iMessage games!)'> <img src={PhoneIcon} alt='phone icon' className="w-8 mr-2"/> (615) 294-6390</a>
+                        <a href="https://www.google.com/maps/place/St.+Louis+Metropolitan+Area/@38.7560177,-91.597838,8z/data=!3m1!4b1!4m6!3m5!1s0x87df333ece73e09d:0xbae7aa3e7b366814!8m2!3d38.8196814!4d-90.4502368!16zL20vMDJ2M203?authuser=0&entry=ttu" target='_blank'  rel="noreferrer" title='western IL, open to relocation!' className="pb-2 flex items-center"> <img src={MapIcon} alt='map icon' className="w-8 mr-2"/> Greater St. Louis Area</a>
                 </section>
             </article>
 
@@ -74,13 +75,13 @@ const navigate = useNavigate()
         <article className=" bg-gray-700 p-10  bg-cover bg-center rounded-xl text-yellow-500">
             <p className=" text-3xl mb-6 flex justify-center">MY SKILLSET </p>
             <section className="flex justify-evenly ">
-                    <img src={ReactIcon} title="React" alt="React Icon" className="h-10"/>
+                    <img src={ReactIcon} title="React; This page is built with React! " alt="React Icon" className="h-10"/>
                     <img src={JSIcon} title="JavaScript" alt="JavaScript Icon" className="h-14"/>
-                    <img src={HTMLIcon} title="Hyper-Text Markup Language" alt="HTML Icon" className="h-12 pt-1"/>
+                    <img src={HTMLIcon} title="Hyper-Text Markup Language; my favorite non-programming language currently" alt="HTML Icon" className="h-12 pt-1"/>
                     <img src={CSSIcon} title="Cascading Style Sheets" alt="CSS Icon" className="h-12"/>
                     <img src={TailwindIcon} title="Tailwind CSS Framework" alt="Tailwind CSS Icon" className="h-8 pt-1"/>
-                    <img src={SQLIcon} title="SQL" alt="SQL Icon" className="h-12"/>
-                    <img src={PythonIcon} title="Python" alt="Python Icon" className="h-12"/>
+                    <img src={SQLIcon} title="SQL; fun fact: I LOVE SQL. CSV files are a hoot!" alt="SQL Icon" className="h-12"/>
+                    <img src={PythonIcon} title="Python; I've used python to make Discord bots too!" alt="Python Icon" className="h-12"/>
                     <img src={DjangoIcon} title="Django" alt="Django Icon" className="h-12"/>
             </section>
         </article>
@@ -104,7 +105,7 @@ const navigate = useNavigate()
                         <p className="text-xl font-semibold">Description</p>
                         <p className="mt-2">» QK is a full CRUD application I made for my friends and I that allows users to track their video game progress.</p>
                         <p className="mt-2">» Users can create a post with information about a video game they'd like to track (platform, title, notes, etc.), see other user posts, as well as edit or delete their own. </p>
-                        <p className="mt-2">» Check out the video for a detailed demonstration!</p>
+                        {/* <p className="mt-2">» Check out the video for a detailed demonstration!</p> */}
                         
                     </div>
                     <div className="border-solid border-2 border-yellow-500 w-4/6">
