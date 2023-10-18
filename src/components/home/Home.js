@@ -73,7 +73,7 @@ export const Home = () =>{
         <br/> <br/>
 
         <article className=" bg-gray-700 p-5 md:p-10 rounded-xl text-yellow-500">
-            <p className=" text-3xl mb-6 flex justify-center">MY SKILLSET </p>
+            <p className=" text-3xl mb-6 flex justify-center">SKILLSET </p>
             <section className="flex justify-evenly ">
                     <img src={ReactIcon} title="React; This page is built with React! " alt="React Icon" className="h-10"/>
                     <img src={JSIcon} title="JavaScript" alt="JavaScript Icon" className="h-14"/>
