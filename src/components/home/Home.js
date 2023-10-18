@@ -58,7 +58,7 @@ export const Home = () =>{
             <article className="bg-gray-700 p-5 md:p-10 rounded-xl text-yellow-500">
                 <div className="flex justify-center flex-col items-center">
                     <p className=" text-6xl mb-6 pt-2">Ely Dorado </p>            
-                    <p className=" text-4xl ">Web Developer</p>
+                    <p className=" text-4xl ">Software Developer</p>
                 </div>
 
                 <section className="flex justify-evenly pt-8">
