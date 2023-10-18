@@ -77,3 +77,19 @@ Desc    Image
             </div>
         </article>
 */
+
+
+/*
+Video Demo of qk
+
+compatibile with small screens
+
+launch sol
+
+links for project move to under descr for space optimiazation
+
+background image?
+Skillset?
+Experience?
+
+*/
