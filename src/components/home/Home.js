@@ -56,7 +56,7 @@ export const Home = () =>{
 
         <br/> <br/> 
 
-            <article className="bg-gray-700 p-5 md:p-10 rounded-xl text-yellow-500">
+            <article className="bg-gray-700 pt-2 md:p-6 rounded-xl text-yellow-500">
                 <div className="flex justify-center flex-col items-center">
                     <p className=" text-6xl mb-6 pt-2">Ely Dorado </p>            
                     <p className=" text-4xl ">Software Developer</p>
@@ -85,42 +85,35 @@ export const Home = () =>{
                     </div> 
                 </section>
 
-                <div>
-                {/* <a href={LinkIcon} download="test-pic" className="flex justify-center "> <button className="bg-gray-600  p-2 hover:bg-green-600 rounded-full"> Download Resume </button> </a> */}
-                </div>
-
-            </article>
-
-        <br/> <br/>
-
-        <article className="bg-gray-700 p-5 md:p-10 rounded-xl text-yellow-500">
-            <p className="text-2xl md:text-3xl mb-4 md:mb-6 text-center">SKILLSET</p>
-            <section className="flex flex-wrap justify-evenly">
-                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
-                    <img src={ReactIcon} title="React; This page is built with React!" alt="React Icon" className="h-8 md:h-10" />
-                </div>
-                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
-                    <img src={JSIcon} title="JavaScript" alt="JavaScript Icon" className="h-10 md:h-14" />
-                </div>
-                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
-                    <img src={HTMLIcon} title="Hyper-Text Markup Language; my favorite non-programming language currently" alt="HTML Icon" className="h-8 md:h-10" />
-                </div>
-                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
-                    <img src={CSSIcon} title="Cascading Style Sheets" alt="CSS Icon" className="h-10 md:h-14" />
-                </div>
-                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
-                    <img src={TailwindIcon} title="Tailwind CSS Framework" alt="Tailwind CSS Icon" className="h-8 md:h-10" />
-                </div>
-                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
-                    <img src={SQLIcon} title="SQL; fun fact: I LOVE SQL. CSV files are a hoot!" alt="SQL Icon" className="h-10 md:h-14" />
-                </div>
-                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
-                    <img src={PythonIcon} title="Python; I've used python to make Discord bots too!" alt="Python Icon" className="h-8 md:h-10" />
-                </div>
-                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
-                    <img src={DjangoIcon} title="Django" alt="Django Icon" className="h-10 md:h-14" />
-                </div>
-            </section>
+            <div className="bg-gray-700 p-4 md:p-4 rounded-xl text-yellow-500">
+                <section className="flex flex-wrap justify-evenly">
+                    <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                        <img src={ReactIcon} title="React; This page is built with React!" alt="React Icon" className="h-8 md:h-10" />
+                    </div>
+                    <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                        <img src={JSIcon} title="JavaScript" alt="JavaScript Icon" className="h-10 md:h-14" />
+                    </div>
+                    <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                        <img src={HTMLIcon} title="Hyper-Text Markup Language; my favorite non-programming language currently" alt="HTML Icon" className="h-8 md:h-10" />
+                    </div>
+                    <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                        <img src={CSSIcon} title="Cascading Style Sheets" alt="CSS Icon" className="h-10 md:h-14" />
+                    </div>
+                    <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                        <img src={TailwindIcon} title="Tailwind CSS Framework" alt="Tailwind CSS Icon" className="h-8 md:h-10" />
+                    </div>
+                    <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                        <img src={SQLIcon} title="SQL; fun fact: I LOVE SQL. CSV files are a hoot!" alt="SQL Icon" className="h-10 md:h-14" />
+                    </div>
+                    <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                        <img src={PythonIcon} title="Python; I've used python to make Discord bots too!" alt="Python Icon" className="h-8 md:h-10" />
+                    </div>
+                    <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                        <img src={DjangoIcon} title="Django" alt="Django Icon" className="h-10 md:h-14" />
+                    </div>
+                </section>
+                {/* <a href={LinkIcon} download="test-pic" className="flex justify-center"> <button className="bg-gray-600  p-2 hover:bg-green-600 rounded-full"> Download Resume </button> </a> */}
+            </div>
         </article>
 
         <br/>  <br/>
@@ -131,7 +124,7 @@ export const Home = () =>{
             <p className="text-center text-3xl pb-2 ">PROJECTS</p>
 
             <div className="p-2">
-                <section className="">
+                <section className=" contains_the_picture_and_text">
                     <div className="w-50">
                         <h1 className="text-2xl text-center font-semibold">Quest Keeper</h1>
                         <br/>
@@ -145,7 +138,6 @@ export const Home = () =>{
                         {/* <p className="mt-2">» Check out the video for a detailed demonstration!</p> */}
                         <br/>
                         <section className="flex justify-end pb-6 mt-2"> 
-                            <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a> 
                             <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/quest-keeper' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
                             <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper.vercel.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Deployed Project</a>
                         </section>
