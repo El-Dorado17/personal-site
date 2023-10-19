@@ -62,25 +62,40 @@ export const Home = () =>{
                     <p className=" text-4xl ">Software Developer</p>
                 </div>
 
-                <section className="flex justify-evenly pt-8">
-                        <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer" className="flex items-center hover:underline" title='Connect with me on Linked-In'> <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 pb-2 mr-2" /> Ely Dorado </a>
-                        <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" className="flex items-center hover:underline" title='Frequently coding on GitHub!'> <img src={BlackGitHubCat} alt="github cat" className="w-8 pb-2 mr-2"/> El-Dorado17 </a>
-                        <a href="mailto:2018dorado@gmail.com" className="pb-2 flex items-center hover:underline" title='Drop me a line!'> <img src={EMailIcon} alt='email icon' className="w-8 mr-2"/> 2018dorado@gmail.com</a>
-                        <a href="tel:+1234567890" className="pb-2 flex items-center hover:underline" title='Reach out! (I still play iMessage games!)'> <img src={PhoneIcon} alt='phone icon' className="w-8 mr-2"/> (615) 294-6390</a>
-                        <a href="https://www.google.com/maps/place/St.+Louis+Metropolitan+Area/@38.7560177,-91.597838,8z/data=!3m1!4b1!4m6!3m5!1s0x87df333ece73e09d:0xbae7aa3e7b366814!8m2!3d38.8196814!4d-90.4502368!16zL20vMDJ2M203?authuser=0&entry=ttu" target='_blank'  rel="noreferrer" title='western IL, open to relocation!' className="pb-2 flex items-center hover:underline"> <img src={MapIcon} alt='map icon' className="w-8 mr-2"/> Greater St. Louis Area</a>
+                <section className="flex flex-col md:flex-row justify-center items-center md:justify-evenly pt-6 md:pt-8">
+                    <div className="pb-2 flex items-center hover:underline">
+                        <img src={LinkedInSquare} alt="LinkedIn logo" className="w-8 pb-2 mr-2" />
+                        <a href="https://www.linkedin.com/in/ely-dorado/" target="_blank" rel="noreferrer" title="Connect with me on LinkedIn">Ely Dorado</a>
+                    </div> 
+                    <div className="pb-2 flex items-center hover:underline">
+                        <img src={BlackGitHubCat} alt="github cat" className="w-8 pb-2 mr-2" />
+                        <a href="https://github.com/El-Dorado17" target="_blank" rel="noreferrer" title="Frequently coding on GitHub!">El-Dorado17</a>
+                    </div> 
+                    <div className="pb-2 flex items-center hover:underline">
+                        <img src={EMailIcon} alt="email icon" className="w-8 pb-2 mr-2" />
+                        <a href="mailto:2018dorado@gmail.com" target="_blank" rel="noreferrer" title="Drop me a line!">2018dorado@gmail.com</a>
+                    </div> 
+                    <div className="pb-2 flex items-center hover:underline">
+                        <img src={PhoneIcon} alt="phone icon" className="w-8 pb-2 mr-2" />
+                        <a href="tel:+16152946390" title="Reach out! (I still play iMessage games!)">(615) 294-6390</a>
+                    </div> 
+                    <div className="pb-2 flex items-center hover:underline">
+                        <img src={MapIcon} alt="map icon" className="w-8 pb-2 mr-2" />
+                        <a href="https://www.google.com/maps/place/St.+Louis+Metropolitan+Area/@38.7560177,-91.597838,8z/data=!3m1!4b1!4m6!3m5!1s0x87df333ece73e09d:0xbae7aa3e7b366814!8m2!3d38.8196814!4d-90.4502368!16zL20vMDJ2M203?authuser=0&entry=ttu" target="_blank" rel="noreferrer" title="western IL, open to relocation!">Greater St. Louis Area</a>
+                    </div> 
                 </section>
 
                 <div>
-                <a href={LinkIcon} download="test-pic" className="flex justify-center "> <button className="bg-gray-600  p-2 hover:bg-green-600 rounded-full"> Download Resume </button> </a>
+                {/* <a href={LinkIcon} download="test-pic" className="flex justify-center "> <button className="bg-gray-600  p-2 hover:bg-green-600 rounded-full"> Download Resume </button> </a> */}
                 </div>
 
             </article>
 
         <br/> <br/>
 
-        <article className=" bg-gray-700 p-5 md:p-10 rounded-xl text-yellow-500">
+        <article className=" bg-gray-700 p-5 md:p-10 rounded-xl text-yellow-500 ">
             <p className=" text-3xl mb-6 flex justify-center">SKILLSET </p>
-            <section className="flex justify-evenly ">
+            <section className="flex justify-evenly">
                     <img src={ReactIcon} title="React; This page is built with React! " alt="React Icon" className="h-10"/>
                     <img src={JSIcon} title="JavaScript" alt="JavaScript Icon" className="h-14"/>
                     <img src={HTMLIcon} title="Hyper-Text Markup Language; my favorite non-programming language currently" alt="HTML Icon" className="h-12 pt-1"/>
