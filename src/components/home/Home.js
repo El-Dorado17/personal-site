@@ -93,17 +93,33 @@ export const Home = () =>{
 
         <br/> <br/>
 
-        <article className=" bg-gray-700 p-5 md:p-10 rounded-xl text-yellow-500 ">
-            <p className=" text-3xl mb-6 flex justify-center">SKILLSET </p>
-            <section className="flex justify-evenly">
-                    <img src={ReactIcon} title="React; This page is built with React! " alt="React Icon" className="h-10"/>
-                    <img src={JSIcon} title="JavaScript" alt="JavaScript Icon" className="h-14"/>
-                    <img src={HTMLIcon} title="Hyper-Text Markup Language; my favorite non-programming language currently" alt="HTML Icon" className="h-12 pt-1"/>
-                    <img src={CSSIcon} title="Cascading Style Sheets" alt="CSS Icon" className="h-12"/>
-                    <img src={TailwindIcon} title="Tailwind CSS Framework" alt="Tailwind CSS Icon" className="h-8 pt-1"/>
-                    <img src={SQLIcon} title="SQL; fun fact: I LOVE SQL. CSV files are a hoot!" alt="SQL Icon" className="h-12"/>
-                    <img src={PythonIcon} title="Python; I've used python to make Discord bots too!" alt="Python Icon" className="h-12"/>
-                    <img src={DjangoIcon} title="Django" alt="Django Icon" className="h-12"/>
+        <article className="bg-gray-700 p-5 md:p-10 rounded-xl text-yellow-500">
+            <p className="text-2xl md:text-3xl mb-4 md:mb-6 text-center">SKILLSET</p>
+            <section className="flex flex-wrap justify-evenly">
+                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                    <img src={ReactIcon} title="React; This page is built with React!" alt="React Icon" className="h-8 md:h-10" />
+                </div>
+                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                    <img src={JSIcon} title="JavaScript" alt="JavaScript Icon" className="h-10 md:h-14" />
+                </div>
+                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                    <img src={HTMLIcon} title="Hyper-Text Markup Language; my favorite non-programming language currently" alt="HTML Icon" className="h-8 md:h-10" />
+                </div>
+                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                    <img src={CSSIcon} title="Cascading Style Sheets" alt="CSS Icon" className="h-10 md:h-14" />
+                </div>
+                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                    <img src={TailwindIcon} title="Tailwind CSS Framework" alt="Tailwind CSS Icon" className="h-8 md:h-10" />
+                </div>
+                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                    <img src={SQLIcon} title="SQL; fun fact: I LOVE SQL. CSV files are a hoot!" alt="SQL Icon" className="h-10 md:h-14" />
+                </div>
+                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                    <img src={PythonIcon} title="Python; I've used python to make Discord bots too!" alt="Python Icon" className="h-8 md:h-10" />
+                </div>
+                <div className="w-1/2 md:w-auto flex items-center justify-center mb-4">
+                    <img src={DjangoIcon} title="Django" alt="Django Icon" className="h-10 md:h-14" />
+                </div>
             </section>
         </article>
 
@@ -112,13 +128,12 @@ export const Home = () =>{
 
 
         <article className="bg-gray-700 text-yellow-500 p-5 md:p-10 rounded-xl" >
-            <p className=" flex justify-center text-3xl pb-2">PROJECTS</p>
+            <p className="text-center text-3xl pb-2 ">PROJECTS</p>
 
             <div className="p-2">
-                <div>
-                <section className="flex justify-between ">
-                    <div className="w-1/3 mr-2">
-                        <h1 className="text-2xl flex justify-center font-semibold">Quest Keeper</h1>
+                <section className="">
+                    <div className="w-50">
+                        <h1 className="text-2xl text-center font-semibold">Quest Keeper</h1>
                         <br/>
                         <p className="text-xl font-semibold">Tech Used</p>
                         <p className="">JavaScript, React, JSON Server, HTML, & Tailwind-CSS</p>
@@ -128,23 +143,22 @@ export const Home = () =>{
                         <p className="mt-2">» Quest Keeper is an application with full Create, Read, Update, and Delete features I made for my friends and I that allows users to track their video game progress.</p>
                         <p className="mt-2">» Users can create a post with information about a video game they'd like to track (platform, title, notes, etc.), see other user posts, as well as edit or delete their own. </p>
                         {/* <p className="mt-2">» Check out the video for a detailed demonstration!</p> */}
-                        
+                        <br/>
+                        <section className="flex justify-end pb-6 mt-2"> 
+                            <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a> 
+                            <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/quest-keeper' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
+                            <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper.vercel.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Deployed Project</a>
+                        </section>
                     </div>
-                    <div className="w-4/6">
-                        <img src={WelcomeQK} alt="pic of the proj"/>
+                    <div className="flex justify-center">
+                        <img src={WelcomeQK} alt="pic of the proj" className="w-3/4"/>
                     </div>
                 </section>
-                
-                <section className="flex justify-end pb-6 mt-2"> 
-                    {/* <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a>  */}
-                    <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/quest-keeper' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
-                    <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper.vercel.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Deployed Project</a>
-                </section>
-                </div>
 
-                <div>
-                <section className="flex justify-between ">
-                <div className="w-1/3 mr-2">
+                    <br/>
+
+                <section className="">
+                    <div className="w-50">
                         <h1  className="text-2xl text-center font-semibold">Study Other Languages (S.O.L.)</h1>
                         <br/>
                         <p className="text-xl font-semibold">Tech Used</p>
@@ -153,17 +167,19 @@ export const Home = () =>{
                         <br/>
                         <p className="mt-2">» SOL is an appplication I made to help my wife study Spanish</p>
                         <p className="mt-2">» With SOL, Mentors can create and delete flashcards for Pupils to study, while Pupils can only view flashcards and filter them by category</p>
+                        <br/>
+                        <section className="flex justify-end pb-6 mt-2"> 
+                            <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a> 
+                            <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/study-other-languages' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
+                        </section>
                     </div>
-                    <div className="w-4/6">
-                        <img src={WelcomeSOL} alt="pic of the proj"/>
+                    <div className="flex justify-center">
+                        <img src={WelcomeSOL} alt="pic of the proj" className="w-3/4"/>
                     </div>
                 </section>
 
-                <section className="flex justify-end pb-6 mt-2"> 
-                    <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a> 
-                    <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/study-other-languages' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
-                </section>
-                </div>
+
+    
                 </div>
 
                 {/* <div>
