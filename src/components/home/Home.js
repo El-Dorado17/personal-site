@@ -128,22 +128,18 @@ export const Home = () =>{
                     <div className="w-50">
                         <h1 className="text-2xl text-center font-semibold">Quest Keeper</h1>
                         <br/>
-                        <p className="text-xl font-semibold">Tech Used</p>
-                        <p className="">JavaScript, React, JSON Server, HTML, & Tailwind-CSS</p>
-                        <p>★ Favorite Feature: Tailwind CSS Integration!</p>
-                        <br/>
                         <p className="text-xl font-semibold">Description</p>
-                        <p className="mt-2">» Quest Keeper is an application with full Create, Read, Update, and Delete features I made for my friends and I that allows users to track their video game progress.</p>
-                        <p className="mt-2">» Users can create a post with information about a video game they'd like to track (platform, title, notes, etc.), see other user posts, as well as edit or delete their own. </p>
-                        {/* <p className="mt-2">» Check out the video for a detailed demonstration!</p> */}
-                        <br/>
-                        <section className="flex justify-end pb-6 mt-2"> 
+                        <p className="mt-2">» Quest Keeper is an application with full Create, Read, Update, & Delete functionality to track video game progress.</p> 
+                        <p className="mt-2">» Users can create a post with information about a video game they'd like to keep track of (platform, title, notes), see other user posts, as well as edit or delete their own.</p>
+                        <p className="mt-2">» Created with JavaSript, React, JSON Server, Tailwind-CSS, and HTML</p>
+                        <p>★ Favorite Feature: Tailwind CSS Integration!</p>
+                        <section className="flex justify-start pb-6 mt-2"> 
                             <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/quest-keeper' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
                             <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper.vercel.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Deployed Project</a>
                         </section>
                     </div>
                     <div className="flex justify-center">
-                        <img src={WelcomeQK} alt="pic of the proj" className="w-3/4"/>
+                        <img src={WelcomeQK} alt="pic of the proj" className="w-min"/>
                     </div>
                 </section>
 
@@ -153,20 +149,18 @@ export const Home = () =>{
                     <div className="w-50">
                         <h1  className="text-2xl text-center font-semibold">Study Other Languages (S.O.L.)</h1>
                         <br/>
-                        <p className="text-xl font-semibold">Tech Used</p>
-                        <p className="">JavaScript, React, JSON Server, HTML, CSS</p>
-                        <p>★ Favorite Feature: Background video & CSS Flip-Card implementation!</p>
-                        <br/>
+                        <p className="text-xl font-semibold">Description</p>
                         <p className="mt-2">» SOL is an appplication I made to help my wife study Spanish</p>
                         <p className="mt-2">» With SOL, Mentors can create and delete flashcards for Pupils to study, while Pupils can only view flashcards and filter them by category</p>
-                        <br/>
-                        <section className="flex justify-end pb-6 mt-2"> 
-                            <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a> 
+                        <p className="mt-2">» Created with JavaScript, React, JSON Server, CSS, and HTML</p>
+                        <p>★ Favorite Feature: Animated background & CSS Flip-Card implementation!</p>
+                        <section className="flex justify-start pb-6 mt-2"> 
+                            {/* <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a>  */}
                             <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/study-other-languages' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
                         </section>
                     </div>
                     <div className="flex justify-center">
-                        <img src={WelcomeSOL} alt="pic of the proj" className="w-3/4"/>
+                        <img src={WelcomeSOL} alt="pic of the proj" className=""/>
                     </div>
                 </section>
 
