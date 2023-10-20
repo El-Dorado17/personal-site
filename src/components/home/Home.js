@@ -4,7 +4,6 @@ import GitHubCat from '../../images/github-mark-white.png'
 import BlackGitHubCat from '../../images/github-mark-black.png'
 import LinkedInSquare from '../../images/linked-in-square.png'
 import BlackNGold from '../../images/black-n-gold.jpg'
-import WelcomeSOL from '../../images/sol/sol-main.png'
 import HTMLIcon from '../../images/skillset/html.png'
 import CSSIcon from '../../images/skillset/css.png'
 import JSIcon from '../../images/skillset/js.webp'
@@ -13,13 +12,13 @@ import PythonIcon from '../../images/skillset/python.png'
 import SQLIcon from '../../images/skillset/sql.png'
 import TailwindIcon from '../../images/skillset/tailwind.png'
 import DjangoIcon from '../../images/skillset/dj.png'
-//import YouTubeIcon from '../../images/icon-youtube.png'
 import EMailIcon from '../../images/icon-email.webp'
 import PhoneIcon from '../../images/icon-phone.webp'
 import MapIcon from '../../images/icon-map.webp'
 import LinkIcon from '../../images/icon-link.png'
 import Resume from '../resume/Ely Dorado.pdf'
 import QKGif from '../../images/qk/demo.gif'
+import SOLGif from '../../images/sol/sol gif.gif'
 
 export const Home = () =>{
     
@@ -160,7 +159,7 @@ export const Home = () =>{
                         </section>
                     </div>
                     <div className="flex justify-center">
-                        <img src={WelcomeSOL} alt="pic of the proj" className=""/>
+                        <img src={SOLGif} alt="pic of the proj" className=""/>
                     </div>
                 </section>
 
@@ -196,54 +195,6 @@ export const Home = () =>{
         </article>
 
         <br/> <br/>
-
-        {/* <article className="bg-gray-700 text-yellow-500 p-10 rounded-xl" >
-            <p className="flex justify-center text-3xl pb-8">EXPERIENCE</p>
-                <div className="flex justify-evenly"> 
-                <section className="w-80 "> 
-                        <div>
-                            <h1 className="text-xl font-semibold">Nashville Software School</h1>
-                            <h2 className="text-l font-semibold">Junior Developer</h2>
-                            <h4 >January 2023 - June 2023</h4>
-                            <br/>
-                            <ul>
-                                <li  className="mt-2">‣ Full-time, six month software development bootcamp focusing on JavaScript/React & Python/Django development fundamentals and problem solving</li>
-                                <li  className="mt-2">‣ Created single & multi-page applications</li>
-                                <li  className="mt-2">‣ Project management/tracking with GitHub project boards and issue tracking source code/version control with Git/GitHub</li>
-                                <li  className="mt-2">‣ Solution Design: white-boarding & wireframes </li>
-                                <li  className="mt-2">‣ Created RESTful API's with Django REST framework </li>
-                                <li  className="mt-2">‣ Retrieved and stored database information with SQLite </li>
-                            </ul>
-                        </div>
-                    </section>
-
-                    <section className="w-80"> 
-                        <div> 
-                            <h1 className="text-xl font-semibold">Dal-Tile Corporation</h1>
-                            <h2 className="text-l font-semibold">Operator & Technician</h2>
-                            <h4>September 2021 - December 2022</h4>
-                            <br/>
-                            <ul>
-
-                                <p className="text-l font-semibold">OPERATOR</p>
-                                <li  className="mt-2">‣ Set new production record among all 4 shifts within four months of start date </li>
-                                <li  className="mt-2">‣ Maintained machinery as needed for optimal production rate </li>
-                                <li  className="mt-2">‣ Checked finished products for correct labeling, presentation, and quantities </li>
-
-                                <br/>
-
-                                <p className="text-l font-semibold">TECHNICIAN</p>
-                                <li  className="mt-2">‣ Operated front-end loader to keep raw material ready for production </li>
-                                <li  className="mt-2">‣ Tested slip & finished powder hourly to ensure Q.C. Standard satisfaction </li>
-                                <li  className="mt-2">‣ Shut down Ball-Mill and Spray-Dryer as needed for cleaning, mechanical-assessment, and routine maintenence</li>
-
-                            </ul>
-                        
-                        </div>
-                    </section>
-                </div>
-        </article> */}
-
         {document.addEventListener('keydown', keyHandler, false)}
     </section>
         </>
