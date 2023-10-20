@@ -1,4 +1,18 @@
 /*
+
+
+FOR MONDAY 10-24
+fix gifs
+round corners
+
+
+
+
+
+
+
+
+
 *WIREFRAME: https://wireframe.cc/HFAW0f
 
 API NOT NEEDED AT THE MOMENT. Looking to just use this repo and nothing else
