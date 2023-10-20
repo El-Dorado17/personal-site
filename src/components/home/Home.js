@@ -14,12 +14,12 @@ import PythonIcon from '../../images/skillset/python.png'
 import SQLIcon from '../../images/skillset/sql.png'
 import TailwindIcon from '../../images/skillset/tailwind.png'
 import DjangoIcon from '../../images/skillset/dj.png'
-import YouTubeIcon from '../../images/icon-youtube.png'
+//import YouTubeIcon from '../../images/icon-youtube.png'
 import EMailIcon from '../../images/icon-email.webp'
 import PhoneIcon from '../../images/icon-phone.webp'
 import MapIcon from '../../images/icon-map.webp'
 import LinkIcon from '../../images/icon-link.png'
-
+import Resume from '../resume/Ely Dorado.pdf'
 
 export const Home = () =>{
     
@@ -112,7 +112,7 @@ export const Home = () =>{
                         <img src={DjangoIcon} title="Django" alt="Django Icon" className="h-10 md:h-14" />
                     </div>
                 </section>
-                {/* <a href={LinkIcon} download="test-pic" className="flex justify-center"> <button className="bg-gray-600  p-2 hover:bg-green-600 rounded-full"> Download Resume </button> </a> */}
+                <a href={Resume} download="Ely Dorado - Resume" className="flex justify-center"> <button className="bg-gray-600  p-2 hover:bg-green-600 rounded-full"> Download Resume </button> </a>
             </div>
         </article>
 
@@ -134,8 +134,8 @@ export const Home = () =>{
                         <p className="mt-2">» Created with JavaSript, React, JSON Server, Tailwind-CSS, and HTML</p>
                         <p>★ Favorite Feature: Tailwind CSS Integration!</p>
                         <section className="flex justify-start pb-6 mt-2"> 
-                            <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/quest-keeper' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
-                            <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper.vercel.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Deployed Project</a>
+                            <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2 " /> <a href='https://github.com/El-Dorado17/quest-keeper' target='_blank'  rel="noreferrer" alt='video link' className="mr-2 hover:underline">Repository</a>
+                            <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper.vercel.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2 hover:underline">Deployed Project</a>
                         </section>
                     </div>
                     <div className="flex justify-center">
@@ -156,7 +156,7 @@ export const Home = () =>{
                         <p>★ Favorite Feature: Animated background & CSS Flip-Card implementation!</p>
                         <section className="flex justify-start pb-6 mt-2"> 
                             {/* <img src={YouTubeIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://youtu.be/3k0GS7kY3yU' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Video Demo</a>  */}
-                            <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/study-other-languages' target='_blank'  rel="noreferrer" alt='video link' className="mr-2">Repository</a>
+                            <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://github.com/El-Dorado17/study-other-languages' target='_blank'  rel="noreferrer" alt='video link' className="mr-2 hover:underline">Repository</a>
                         </section>
                     </div>
                     <div className="flex justify-center">
