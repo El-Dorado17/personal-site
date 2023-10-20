@@ -4,7 +4,6 @@ import GitHubCat from '../../images/github-mark-white.png'
 import BlackGitHubCat from '../../images/github-mark-black.png'
 import LinkedInSquare from '../../images/linked-in-square.png'
 import BlackNGold from '../../images/black-n-gold.jpg'
-import WelcomeQK from '../../images/qk/qk welcome.png'
 import WelcomeSOL from '../../images/sol/sol-main.png'
 import HTMLIcon from '../../images/skillset/html.png'
 import CSSIcon from '../../images/skillset/css.png'
@@ -20,6 +19,7 @@ import PhoneIcon from '../../images/icon-phone.webp'
 import MapIcon from '../../images/icon-map.webp'
 import LinkIcon from '../../images/icon-link.png'
 import Resume from '../resume/Ely Dorado.pdf'
+import QKGif from '../../images/qk/demo.gif'
 
 export const Home = () =>{
     
@@ -139,7 +139,7 @@ export const Home = () =>{
                         </section>
                     </div>
                     <div className="flex justify-center">
-                        <img src={WelcomeQK} alt="pic of the proj" className="w-min"/>
+                        <img src={QKGif} alt="pic of the proj" className="w-min"/>
                     </div>
                 </section>
 
