@@ -17,8 +17,8 @@ import PhoneIcon from '../../images/icon-phone.webp'
 import MapIcon from '../../images/icon-map.webp'
 import LinkIcon from '../../images/icon-link.png'
 import Resume from '../resume/Ely Dorado.pdf'
-import QKGif from '../../images/qk/demo.gif'
-import SOLGif from '../../images/sol/sol gif.gif'
+import QKVid from '../../images/qk/demo.mp4'
+import SOLVid from '../../images/sol/sol-demo.mp4'
 
 export const Home = () =>{
     
@@ -138,7 +138,7 @@ export const Home = () =>{
                         </section>
                     </div>
                     <div className="flex justify-center">
-                        <img src={QKGif} alt="pic of the proj" className="w-min"/>
+                        <video src={QKVid} alt="video demonstration" className="w-min" controls/>
                     </div>
                 </section>
 
@@ -159,7 +159,7 @@ export const Home = () =>{
                         </section>
                     </div>
                     <div className="flex justify-center">
-                        <img src={SOLGif} alt="pic of the proj" className=""/>
+                        <video src={SOLVid} alt="video demonstration" className="" controls/>
                     </div>
                 </section>
 
