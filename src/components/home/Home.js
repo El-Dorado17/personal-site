@@ -134,7 +134,7 @@ export const Home = () =>{
                         <p>★ Favorite Feature: Tailwind CSS Integration!</p>
                         <section className="flex justify-start pb-6 mt-2"> 
                             <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2 " /> <a href='https://github.com/El-Dorado17/quest-keeper' target='_blank'  rel="noreferrer" alt='video link' className="mr-2 hover:underline">Repository</a>
-                            <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper.vercel.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2 hover:underline">Deployed Project</a>
+                            {/* <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper.vercel.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2 hover:underline">Deployed Project</a> */}
                         </section>
                     </div>
                     <div className="flex justify-center">
