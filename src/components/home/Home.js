@@ -1,5 +1,6 @@
 import React from "react";
 //import { useNavigate } from "react-router-dom";
+//import LinkIcon from '../../images/icon-link.png'
 import GitHubCat from '../../images/github-mark-white.png'
 import BlackGitHubCat from '../../images/github-mark-black.png'
 import LinkedInSquare from '../../images/linked-in-square.png'
@@ -130,10 +131,10 @@ export const Home = () =>{
                         <p className="mt-2">» Quest Keeper is an application with full Create, Read, Update, & Delete functionality to track video game progress.</p> 
                         <p className="mt-2">» Users can create a post with information about a video game they'd like to keep track of (platform, title, notes), see other user posts, as well as edit or delete their own.</p>
                         <p className="mt-2">» Created with JavaSript, React, JSON Server, Tailwind-CSS, and HTML</p>
-                        <p>★ Favorite Feature: Tailwind CSS Integration!</p>
+                        <p>★ Favorite Feature: Tailwind CSS Integration & deploying to Digital-Ocean!</p>
                         <section className="flex justify-start pb-6 mt-2"> 
                             <img src={GitHubCat} alt='YouTube icon' className="h-10 mr-2 " /> <a href='https://github.com/El-Dorado17/quest-keeper' target='_blank'  rel="noreferrer" alt='video link' className="mr-2 hover:underline">Repository</a>
-                            {/* <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper.vercel.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2 hover:underline">Deployed Project</a> */}
+                            {/* <img src={LinkIcon} alt='YouTube icon' className="h-10 mr-2" /> <a href='https://quest-keeper.vercel.app/register' target='_blank'  rel="noreferrer" alt='video link' className="mr-2 hover:underline"> (Unfortunately, this app's free trial had a Cinderella moment and turned into a 'paid' pumpkin at midnight) </a> */}
                         </section>
                     </div>
                     <div className="flex justify-center">
