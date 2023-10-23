@@ -138,7 +138,7 @@ export const Home = () =>{
                         </section>
                     </div>
                     <div className="flex justify-center">
-                        <video src={QKVid} alt="video demonstration" className="w-min" controls/>
+                        <video src={QKVid} alt="video demonstration" className=" border border-yellow-500 rounded-xl" controls/>
                     </div>
                 </section>
 
@@ -159,7 +159,7 @@ export const Home = () =>{
                         </section>
                     </div>
                     <div className="flex justify-center">
-                        <video src={SOLVid} alt="video demonstration" className="" controls/>
+                        <video src={SOLVid} alt="video demonstration" className="border border-yellow-500 rounded-xl" controls/>
                     </div>
                 </section>
 
