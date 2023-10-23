@@ -15,7 +15,6 @@ import DjangoIcon from '../../images/skillset/dj.png'
 import EMailIcon from '../../images/icon-email.webp'
 import PhoneIcon from '../../images/icon-phone.webp'
 import MapIcon from '../../images/icon-map.webp'
-import LinkIcon from '../../images/icon-link.png'
 import Resume from '../resume/Ely Dorado.pdf'
 import QKVid from '../../images/qk/demo.mp4'
 import SOLVid from '../../images/sol/sol-demo.mp4'
@@ -51,7 +50,7 @@ export const Home = () =>{
 
     return(<>
 
-    <section className= " bg-cover bg-center bg-fixed p-5 md:p-10" style={{ backgroundImage: `url(${BlackNGold})` }} >
+    <section className= " bg-cover bg-center bg-fixed p-5 md:p-10 bg-gradient-to-b from-white to-black" style={{ backgroundImage: `url(${BlackNGold})` }} >
 
         <br/> <br/> 
 
@@ -111,7 +110,7 @@ export const Home = () =>{
                         <img src={DjangoIcon} title="Django" alt="Django Icon" className="h-10 md:h-14" />
                     </div>
                 </section>
-                <a href={Resume} download="Ely Dorado - Resume" className="flex justify-center"> <button className="bg-gray-600  p-2 hover:bg-green-600 rounded-full"> Download Resume </button> </a>
+                <a href={Resume} download="Ely Dorado - Resume" className="flex justify-center"> <button className="bg-gray-600 p-2 hover:bg-yellow-400 hover:text-black rounded-full"> Download Resume </button> </a>
             </div>
         </article>
 
