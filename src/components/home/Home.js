@@ -4,7 +4,7 @@ import React from "react";
 import GitHubCat from '../../images/github-mark-white.png'
 import BlackGitHubCat from '../../images/github-mark-black.png'
 import LinkedInSquare from '../../images/linked-in-square.png'
-import BlackNGold from '../../images/black-n-gold.jpg'
+// import BlackNGold from '../../images/black-n-gold.jpg' //to use: style={{ backgroundImage: `url(${BlackNGold})` }}
 import HTMLIcon from '../../images/skillset/html.png'
 import CSSIcon from '../../images/skillset/css.png'
 import JSIcon from '../../images/skillset/js.webp'
@@ -24,34 +24,34 @@ export const Home = () =>{
     
 //const navigate = useNavigate()
 
-    var pattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight'];
-    var current = 0;
+    // var pattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight'];
+    // var current = 0;
     
-    var keyHandler = function (event) {
+    // var keyHandler = function (event) {
     
-        // If the key isn't in the pattern, or isn't the current key in the pattern, reset
-        if (pattern.indexOf(event.key) < 0 || event.key !== pattern[current]) {
-            current = 0;
-            return;
-        }
+    //     // If the key isn't in the pattern, or isn't the current key in the pattern, reset
+    //     if (pattern.indexOf(event.key) < 0 || event.key !== pattern[current]) {
+    //         current = 0;
+    //         return;
+    //     }
     
-        // Update how much of the pattern is complete
-        current++;
+    //     // Update how much of the pattern is complete
+    //     current++;
     
-        // If complete, alert and reset
-        if (pattern.length === current) {
-            current = 0;
-            alert('Now tracking this computers location...')
-            alert('Just kidding! Check back at a later time :)')
-        }
+    //     // If complete, alert and reset
+    //     if (pattern.length === current) {
+    //         current = 0;
+    //         alert('Now tracking this computers location...')
+    //         alert('Just kidding! Check back at a later time :)')
+    //     }
     
-    };
+    // };
 
 
 
     return(<>
 
-    <section className= " bg-cover bg-center bg-fixed p-5 md:p-10 bg-gradient-to-b from-white to-black" style={{ backgroundImage: `url(${BlackNGold})` }} >
+    <section className= " bg-cover bg-center bg-fixed p-5 md:p-10 bg-gradient-to-l from-gray-500 to-black"  >
 
         <br/> <br/> 
 
@@ -194,8 +194,8 @@ export const Home = () =>{
                 </div> */}
         </article>
 
-        <br/> <br/>
-        {document.addEventListener('keydown', keyHandler, false)}
+        {/* <br/> <br/>
+        {document.addEventListener('keydown', keyHandler, false)} */}
     </section>
         </>
     )
