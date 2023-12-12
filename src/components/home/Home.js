@@ -24,6 +24,8 @@ export const Home = () =>{
     
 //const navigate = useNavigate()
 
+//test
+
     // var pattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight'];
     // var current = 0;
     
