@@ -82,7 +82,7 @@ export const Home = () =>{
                     </div> 
                     <div className="pb-2 flex items-center hover:underline">
                         <img src={MapIcon} alt="map icon" className="w-8 pb-2 mr-2" />
-                        <a href="https://www.google.com/maps/place/Springfield,+IL/@39.7638375,-89.6708313,11z/data=!3m1!4b1!4m6!3m5!1s0x8875391d24dbd177:0xe72c82eecca86d22!8m2!3d39.7817213!4d-89.6501481!16zL20vMGZ0eGM?entry=ttu" target="_blank" rel="noreferrer" title="western IL, open to relocation!">Greater Springfield Area</a>
+                        <a href="https://www.google.com/maps/place/Katy,+TX/@29.7924561,-95.8577712,13z/data=!3m1!4b1!4m6!3m5!1s0x8640dff9ae358adf:0x17966e0d7c2b1125!8m2!3d29.7857765!4d-95.8245093!16zL20vMDEzbW1y?entry=ttu" target="_blank" rel="noreferrer" title="Eatern TX, open to relocation!">Greater Houston Area</a>
                     </div> 
                 </section>
 
