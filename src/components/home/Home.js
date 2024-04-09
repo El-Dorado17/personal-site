@@ -16,7 +16,7 @@ import DjangoIcon from '../../images/skillset/dj.png'
 import EMailIcon from '../../images/icon-email.webp'
 import PhoneIcon from '../../images/icon-phone.webp'
 import MapIcon from '../../images/icon-map.webp'
-import Resume from '../resume/Ely Dorado.pdf'
+import Resume from '../resume/Ely-Dorado.pdf'
 import QKVid from '../../images/qk/demo.mp4'
 import SOLVid from '../../images/sol/sol-demo.mp4'
 
@@ -118,8 +118,6 @@ export const Home = () =>{
         </article>
 
         <br/>  <br/>
-
-
 
         <article className="bg-gray-700 text-yellow-500 p-5 md:p-10 rounded-xl" >
             <p className="text-center text-3xl pb-2 ">PROJECTS</p>
