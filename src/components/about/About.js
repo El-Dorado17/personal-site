@@ -11,10 +11,10 @@ return(
     </div>
 
     <div>
-        <h1> Hello! Thanks for checking out this page!</h1>
+        <h1> Hello! Thanks for checking out my about page!</h1>
             <p> Unfortunately, this view is under construction for now,</p>
             <p> but check back soon to see this feature and more!</p>
-            <p> thanks!</p>
+            <p> thank you!</p>
             <p> -Ely</p>
     </div>
 </section>
