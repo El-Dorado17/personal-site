@@ -16,7 +16,6 @@ return(
             <p> but check back soon to see this feature and more!</p>
             <p> thanks!</p>
             <p> -Ely</p>
-            <p> test 5</p>
     </div>
 </section>
 )
