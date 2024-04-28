@@ -5,9 +5,9 @@ export const Projects =()=>{
 return(
 <section>
     <div>
-        <p>p1</p>
-        <p>p1</p>
-        <p>p1</p>
+        <p>Get rid of these 3</p>
+        <p>lines.</p>
+        <p>Replace with padding</p>
     </div>
 
     <div>
