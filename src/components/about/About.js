@@ -5,9 +5,9 @@ export const About =()=>{
 return(
 <section>
     <div>
-        <p>p1</p>
-        <p>p1</p>
-        <p>p1</p>
+        <p>Get rid of this</p>
+        <p>Add padding</p>
+        <p>to be below nav bar</p>
     </div>
 
     <div>
