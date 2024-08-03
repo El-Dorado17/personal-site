@@ -1,7 +1,7 @@
 import React from "react"
 import res from '../../components/resume/Ely-Dorado.pdf'
 
-//! iframe is a tage for PDF's. Tried to use an img tag but wouldn't render; lesson learned
+//! iframe is a tag for PDF's. Tried to use an img tag but wouldn't render; lesson learned
 //used to embed another file within the html file. inline frame = iframe
 
 export const Resume =()=>{
